@@ -11,7 +11,7 @@ plugins {
 }
 
 GatewayConnection {
-    url = 'https://localhost:8443/restman'
+    url = 'https://david94c.lvn.broadcom.net:8443/restman'
     folderPath = '/'
 }
 
