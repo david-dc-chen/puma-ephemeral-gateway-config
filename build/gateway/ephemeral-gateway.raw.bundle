@@ -2,7 +2,7 @@
 <l7:Item xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
     <l7:Name>Bundle</l7:Name>
     <l7:Type>BUNDLE</l7:Type>
-    <l7:TimeStamp>2019-04-30T15:33:41.423-07:00</l7:TimeStamp>
+    <l7:TimeStamp>2019-04-30T15:46:38.782-07:00</l7:TimeStamp>
     <l7:Link rel="self" uri="https://david94c.lvn.broadcom.net:8443/restman/1.0/bundle?encassAsPolicyDependency=true&amp;includeDependencies=true&amp;all=true&amp;encryptSecrets=true"/>
     <l7:Resource>
         <l7:Bundle>
@@ -11,7 +11,7 @@
                     <l7:Name>Root Node</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffec76</l7:Id>
                     <l7:Type>FOLDER</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.076-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.444-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Folder id="0000000000000000ffffffffffffec76" version="0">
                             <l7:Name>Root Node</l7:Name>
@@ -19,232 +19,10 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>SSL</l7:Name>
-                    <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
-                    <l7:Type>SSG_KEY_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.392-07:00</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:PrivateKey alias="SSL" keystoreId="00000000000000000000000000000002" id="00000000000000000000000000000002:SSL">
-                            <l7:CertificateChain>
-<l7:CertificateData>
-    <l7:IssuerName>CN%3Ddavid94c.lvn.broadcom.net</l7:IssuerName>
-    <l7:SerialNumber>9716484512772322885</l7:SerialNumber>
-    <l7:SubjectName>CN%3Ddavid94c.lvn.broadcom.net</l7:SubjectName>
-    <l7:Encoded>MIIDDTCCAfWgAwIBAgIJAIbX4y8pYPZFMA0GCSqGSIb3DQEBDAUAMCQxIjAgBgNVBAMTGWRhdmlkOTRjLmx2bi5icm9hZGNvbS5uZXQwHhcNMTkwMjI4MTkyMDI0WhcNMjkwMjI1MTkyMDI0WjAkMSIwIAYDVQQDExlkYXZpZDk0Yy5sdm4uYnJvYWRjb20ubmV0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtJF4QKF3NEkyJp4LDsdMd+fESRjrv4QnFD1X9EoOGuu7OZQjrN4+Xt7vPJ0m1cElWwEFUYmjKo8N7PWgugsD6hsZ/7qY5McYEQWjzwG198XCb/ONuIHPGxtzIL8MVvN9Iw/aFzdcHaaHiD+BH3vWQ4LzAd0rWgA71Fls5UCeewPh6eaTR8pavbCVSO3uvQEZ6g3W/C4vyMkskv/32glBDTPfXwcKr65aKPAvg8O8gyarRZCINAoirWl3wXxppqlePGbMluG7oUhtZp3PyW6jpz08RNAo4RN8Q/U5kMOrETorb8m5aBU+rzV2ss/s5mA2jw+r0+mhX9tbtwn17rnXDQIDAQABo0IwQDAdBgNVHQ4EFgQUYq+VHbU3DmsLFxOlQxojb7VtvKcwHwYDVR0jBBgwFoAUYq+VHbU3DmsLFxOlQxojb7VtvKcwDQYJKoZIhvcNAQEMBQADggEBAAM7cDT5TVmvcpyoyRgmpfKyguInifOYUIDIbJVcs2+6nY1aJQbNy+IGrZOtoUujPnlsHhOgi7TvQqZSvmhdPXgNVrnKZH6zIEzCX3QVja7q9t5AvOcY8iHC+NYMPmvoyZArbnriClLOwjDB0KUPPcEpS+Wqz2re9O274r5eboOafHp/TkHGNzTwtMeDn6VHAhI5LuHjq/s3psjviSclKal+87SienidijzGS+EjAlaxrrQxBG5c3B7hIQ+e95OqWgpY4Ls4zf4kGZPs3Pa+CO5wIE1S7zauHlnu4ADSzWAPfTPDpiLq14wFNLJLn5ZX2O+ucP4h9DapL0PaSHT06lQ=</l7:Encoded>
-</l7:CertificateData>
-                            </l7:CertificateChain>
-                            <l7:Properties>
-<l7:Property key="keyAlgorithm">
-    <l7:StringValue>RSA</l7:StringValue>
-</l7:Property>
-<l7:Property key="keyData">
-    <l7:StringValue bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu" algorithm="RSA">$L7C2$1,SAXEhUf7LYxO1xIuyIsyT5mmLVLjFtTVSkBx3A+q1LA=$JHcBnKQXtv1hwiHfFWzvsepcXXzGXIuLB+TP69B6aaAHbOVdWRlF2zznSCQyaCopZC8BC4BZnErt+x0sLuW0pkuh6dsk2gnPFGVvrD7w9CoJ3kGhw0+ft2HOVCaEuaONgmRb91WSTeZjwcVaz52d4vfyuzlvmW2yj5dBO0FmpbQDJy1JzBzuf6K2jVbIsyqmpc7tAjnW0f3lEDGdn9dGZpW1MFkQnEbgti3CorZpzM6y67NRimQgY/XftgE16P244cpOCRtDXwMDfX5NPTqYwhj7TCRMBoC08zP4LZZVFdsMhEpi+TqRvN3kfZNRX9LSlueRhDhJkXF6sIpyn88jVEIbZ5DXD2IsVq43vdx9zBleNsQHardCo547h2ETipZWvanOYv/EUwAdS9WkInyjaFBRbt4h7eAQ4ocZBdZ8JmFTjAYWQigMQjLmT0GcjH20+Q44edzOd5NEQErXMdfiKOkBnD/gck33xx4RmGw7IV42cp6sXuIGdLKIPLLLVx0lJDJX5mBpLMQ/Ma/RAFcizk1DvDEn2OWVL5GV4S4PTCbHShEglGWc3aJVjzm96wzBM+6UEPIK8sqzLyQzQ6MKa/6Zc6I2VRS4T41Kt76txRHYD71mFhLPF0ywiDTCXfeRJRD7JLj7r94brWLT6nudR1xYXQOa/Apu2yCmWUpJo7/74UokACJu2BjvVLA4n8mPzhDA89aUM4uKOinrn0UyNncT1tgdxvDEG/4oCWaa99c2W9y0KrJyhYGXEvrNM9RrfzDNBAnMRR/JD28gmdAoa4UxX3k0pPdyvWrgUDGvD3/iiMXH/1Lky5JqkHvla+MY4FhC8eMrDwTFopzyaiychMb2FyVLXE00U4T95yRz4XYDT9rY8pi0mUsAsFnMHqgZyspfAN54MYq4WlO0e8Z0fgPttN8Rc4sK8D8buHfZeP+Nx78VlwMtRBnZIFmAvBg2cSLOjndIsUYzhkmgBvFQ6Uu67sLwNzoZDL8nRvZUM2yETCn2I2wtNMWPiaYhSLfpcj0hWTNHYgWJAZJAaoG+ts4S8H3xe/c4odQ7tli16K8mWIbQHgTDmoAdUk6b9fGjYBMP0/LSjlfq2xGZminpGuV46b1bOG+5LLtHCJ/h9yugikgsRe6xuY/TU8gv2bDnE3iIWt8d2RnKdlkd3fQrmn8yXUSS9/gnQFTWC8dK+5XKhQNV1Un2UTtBhVS5odMrZ4hy2oH46uskplwCVKXT/03FpnRR22f5q+uAk/4t66kSGk/gNYpYw6RhfWTv7dqGI9BS4KrmyyO5Hpx5I5DFw/2EXhGFbfSrxzV8+GzSetE5957igq9uXF2fn3c/j+CioCW5BdZxcGsmcoes7VSwWxrQVPca0mn7XLcsvWxl9QcLF9Da1lxk4wSUl18+0tiIQdh5mFAweUjNwEZNkOD9TWyDG2s+lRv1tPMVr70Pa3AESyKaEQqnQMOZ/Dk5Voh3VGigr2zjbzY6PDYboM5S2XdHQdztc48tdifuSusjNA/iiUwdZB/3bvpyPDqwYhDO2Kx6AehsfW5YQV4hYrHSeWmQVW17eus9rIIk719bXne5hOssvGdeTZPE13Ou/FWRCzE1xZx6nNSvAYzoiBLNRj2AhFY4X3pnJHnrWWNhIxpwq/STfIRuqI0h5iFnFquzHMGxLzY9D5ireBxyZmbht1ZLfg0mWc/Y/RIc8e0MR1g=</l7:StringValue>
-</l7:Property>
-<l7:Property key="specialPurposes">
-    <l7:StringValue>Default SSL Key</l7:StringValue>
-</l7:Property>
-                            </l7:Properties>
-                        </l7:PrivateKey>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>influxdb</l7:Name>
-                    <l7:Id>c22cf9143e026a67e9b7842314b0bfce</l7:Id>
-                    <l7:Type>POLICY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.396-07:00</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Policy guid="b1e4a20a-3194-4520-8848-20683c5716f2" id="c22cf9143e026a67e9b7842314b0bfce" version="1">
-                            <l7:PolicyDetail folderId="0000000000000000ffffffffffffec76" guid="b1e4a20a-3194-4520-8848-20683c5716f2" id="c22cf9143e026a67e9b7842314b0bfce" version="1">
-<l7:Name>influxdb</l7:Name>
-<l7:PolicyType>Service Operation</l7:PolicyType>
-<l7:Properties>
-    <l7:Property key="revision">
-        <l7:LongValue>1</l7:LongValue>
-    </l7:Property>
-    <l7:Property key="soap">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="subtag">
-        <l7:StringValue>process</l7:StringValue>
-    </l7:Property>
-    <l7:Property key="tag">
-        <l7:StringValue>com.l7tech.external.assertions.pbsmel.server.ServiceMetricsProcessor</l7:StringValue>
-    </l7:Property>
-</l7:Properties>
-                            </l7:PolicyDetail>
-                            <l7:Resources>
-<l7:ResourceSet tag="policy">
-    <l7:Resource type="policy">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
-    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
-        &lt;L7p:CommentAssertion&gt;
-            &lt;L7p:Comment stringValue=&quot;********************************************************************************************************************&quot;/&gt;
-        &lt;/L7p:CommentAssertion&gt;
-        &lt;L7p:CommentAssertion&gt;
-            &lt;L7p:Comment stringValue=&quot;* Off Box Service Metrics&quot;/&gt;
-        &lt;/L7p:CommentAssertion&gt;
-        &lt;L7p:CommentAssertion&gt;
-            &lt;L7p:Comment stringValue=&quot;* Route the metrics message to InfluxDB.&quot;/&gt;
-        &lt;/L7p:CommentAssertion&gt;
-        &lt;L7p:CommentAssertion&gt;
-            &lt;L7p:Comment stringValue=&quot;* &quot;/&gt;
-        &lt;/L7p:CommentAssertion&gt;
-        &lt;L7p:CommentAssertion&gt;
-            &lt;L7p:Comment stringValue=&quot;* Input: A JSON format message containing service metrics for single request (as ${metrics})&quot;/&gt;
-        &lt;/L7p:CommentAssertion&gt;
-        &lt;L7p:CommentAssertion&gt;
-            &lt;L7p:Comment stringValue=&quot;* &quot;/&gt;
-        &lt;/L7p:CommentAssertion&gt;
-        &lt;L7p:CommentAssertion&gt;
-            &lt;L7p:Comment stringValue=&quot;********************************************************************************************************************&quot;/&gt;
-        &lt;/L7p:CommentAssertion&gt;
-        &lt;L7p:AuditAssertion&gt;
-            &lt;L7p:Enabled booleanValue=&quot;false&quot;/&gt;
-        &lt;/L7p:AuditAssertion&gt;
-        &lt;L7p:AuditDetailAssertion&gt;
-            &lt;L7p:Detail stringValue=&quot;metrics: ${metrics.mainpart}&quot;/&gt;
-            &lt;L7p:Enabled booleanValue=&quot;false&quot;/&gt;
-            &lt;L7p:Level stringValue=&quot;WARNING&quot;/&gt;
-        &lt;/L7p:AuditDetailAssertion&gt;
-        &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;time&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;time&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;nodeId&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;nodeId&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;nodeName&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;nodeName&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;nodeIp&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;nodeIp&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;serviceId&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;serviceId&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;serviceName&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;serviceName&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;serviceUri&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;serviceUri&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;totalFrontendLatency&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;totalFrontendLatency&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;totalBackendLatency&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;totalBackendLatency&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;isPolicySuccessful&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;isPolicySuccessful&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;isPolicyViolation&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;isPolicyViolation&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-            &lt;L7p:EvaluateJsonPathExpression&gt;
-                &lt;L7p:Expression stringValue=&quot;isRoutingFailure&quot;/&gt;
-                &lt;L7p:OtherTargetMessageVariable stringValue=&quot;metrics&quot;/&gt;
-                &lt;L7p:Target target=&quot;OTHER&quot;/&gt;
-                &lt;L7p:VariablePrefix stringValue=&quot;isRoutingFailure&quot;/&gt;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;
-        &lt;/wsp:All&gt;
-        &lt;L7p:SetVariable&gt;
-            &lt;L7p:Base64Expression stringValue=&quot;aWQ9JHtyZXF1ZXN0SWR9LG5vZGVJZD0ke25vZGVJZC5yZXN1bHR9LG5vZGVOYW1lPSR7bm9kZU5hbWUucmVzdWx0fSxub2RlSXA9JHtub2RlSXAucmVzdWx0fSxzZXJ2aWNlSWQ9JHtzZXJ2aWNlSWQucmVzdWx0fSxzZXJ2aWNlTmFtZT0ke3NlcnZpY2VOYW1lLnJlc3VsdH0sc2VydmljZVVyaT0ke3NlcnZpY2VVcmkucmVzdWx0fSxpc1BvbGljeVN1Y2Nlc3NmdWw9JHtpc1BvbGljeVN1Y2Nlc3NmdWwucmVzdWx0fSxpc1BvbGljeVZpb2xhdGlvbj0ke2lzUG9saWN5VmlvbGF0aW9uLnJlc3VsdH0saXNSb3V0aW5nRmFpbHVyZT0ke2lzUm91dGluZ0ZhaWx1cmUucmVzdWx0fQ==&quot;/&gt;
-            &lt;L7p:VariableToSet stringValue=&quot;tags&quot;/&gt;
-        &lt;/L7p:SetVariable&gt;
-        &lt;L7p:SetVariable&gt;
-            &lt;L7p:Base64Expression stringValue=&quot;dG90YWxGcm9udGVuZExhdGVuY3k9JHt0b3RhbEZyb250ZW5kTGF0ZW5jeS5yZXN1bHR9LHRvdGFsQmFja2VuZExhdGVuY3k9JHt0b3RhbEJhY2tlbmRMYXRlbmN5LnJlc3VsdH0=&quot;/&gt;
-            &lt;L7p:LineBreak lineBreak=&quot;LF&quot;/&gt;
-            &lt;L7p:VariableToSet stringValue=&quot;mesaurement&quot;/&gt;
-        &lt;/L7p:SetVariable&gt;
-        &lt;L7p:SetVariable&gt;
-            &lt;L7p:Base64Expression stringValue=&quot;cmVxdWVzdCwke3RhZ3N9ICR7bWVzYXVyZW1lbnR9ICR7dGltZS5yZXN1bHR9MDAwMDAw&quot;/&gt;
-            &lt;L7p:ContentType stringValue=&quot;text/plain; charset=utf-8&quot;/&gt;
-            &lt;L7p:DataType variableDataType=&quot;message&quot;/&gt;
-            &lt;L7p:LineBreak lineBreak=&quot;LF&quot;/&gt;
-            &lt;L7p:VariableToSet stringValue=&quot;requestDataPointMsg&quot;/&gt;
-        &lt;/L7p:SetVariable&gt;
-        &lt;L7p:AuditDetailAssertion&gt;
-            &lt;L7p:Detail stringValue=&quot;requestDataPointMsg: ${requestDataPointMsg.mainpart}&quot;/&gt;
-            &lt;L7p:Enabled booleanValue=&quot;false&quot;/&gt;
-            &lt;L7p:Level stringValue=&quot;WARNING&quot;/&gt;
-        &lt;/L7p:AuditDetailAssertion&gt;
-        &lt;L7p:HttpRoutingAssertion&gt;
-            &lt;L7p:HttpMethod httpMethod=&quot;POST&quot;/&gt;
-            &lt;L7p:ProtectedServiceUrl stringValue=&quot;http://apim-service-metrics-runtime-influxdb:8086/write?db=serviceMetricsDb&quot;/&gt;
-            &lt;L7p:ProxyPassword stringValueNull=&quot;null&quot;/&gt;
-            &lt;L7p:ProxyUsername stringValueNull=&quot;null&quot;/&gt;
-            &lt;L7p:RequestHeaderRules httpPassthroughRuleSet=&quot;included&quot;&gt;
-                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
-                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;&gt;
-                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
-                        &lt;L7p:Name stringValue=&quot;Cookie&quot;/&gt;
-                    &lt;/L7p:item&gt;
-                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
-                        &lt;L7p:Name stringValue=&quot;SOAPAction&quot;/&gt;
-                    &lt;/L7p:item&gt;
-                &lt;/L7p:Rules&gt;
-            &lt;/L7p:RequestHeaderRules&gt;
-            &lt;L7p:RequestMsgSrc stringValue=&quot;requestDataPointMsg&quot;/&gt;
-            &lt;L7p:RequestParamRules httpPassthroughRuleSet=&quot;included&quot;&gt;
-                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
-                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;/&gt;
-            &lt;/L7p:RequestParamRules&gt;
-            &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet=&quot;included&quot;&gt;
-                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
-                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;&gt;
-                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
-                        &lt;L7p:Name stringValue=&quot;Set-Cookie&quot;/&gt;
-                    &lt;/L7p:item&gt;
-                &lt;/L7p:Rules&gt;
-            &lt;/L7p:ResponseHeaderRules&gt;
-            &lt;L7p:SamlAssertionVersion intValue=&quot;2&quot;/&gt;
-        &lt;/L7p:HttpRoutingAssertion&gt;
-    &lt;/wsp:All&gt;
-&lt;/wsp:Policy&gt;
-</l7:Resource>
-</l7:ResourceSet>
-                            </l7:Resources>
-                        </l7:Policy>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
                     <l7:Name>hi</l7:Name>
                     <l7:Id>e20e135c991fc80f9e180fb97e8ffe28</l7:Id>
                     <l7:Type>SERVICE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.398-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.446-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Service id="e20e135c991fc80f9e180fb97e8ffe28" version="2">
                             <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="e20e135c991fc80f9e180fb97e8ffe28" version="2">
@@ -300,7 +78,7 @@
                     <l7:Name>node</l7:Name>
                     <l7:Id>e20e135c991fc80f9e180fb97e9190d1</l7:Id>
                     <l7:Type>SERVICE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.399-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.447-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Service id="e20e135c991fc80f9e180fb97e9190d1" version="2">
                             <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="e20e135c991fc80f9e180fb97e9190d1" version="2">
@@ -355,7 +133,7 @@
                     <l7:Name>apim-hugh-new.lvn.broadcom.net</l7:Name>
                     <l7:Id>acb11723ef3ca24e7c3bf604e482a38c</l7:Id>
                     <l7:Type>TRUSTED_CERT</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.400-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.451-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:TrustedCertificate id="acb11723ef3ca24e7c3bf604e482a38c" version="1">
                             <l7:Name>apim-hugh-new.lvn.broadcom.net</l7:Name>
@@ -398,7 +176,7 @@
                     <l7:Name>cluster.hostname</l7:Name>
                     <l7:Id>0000000000000000fffffffffff5519f</l7:Id>
                     <l7:Type>CLUSTER_PROPERTY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.400-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.451-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ClusterProperty id="0000000000000000fffffffffff5519f" version="1">
                             <l7:Name>cluster.hostname</l7:Name>
@@ -410,7 +188,7 @@
                     <l7:Name>Internal Identity Provider</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffffe</l7:Id>
                     <l7:Type>ID_PROVIDER_CONFIG</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.400-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.451-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:IdentityProvider id="0000000000000000fffffffffffffffe" version="0">
                             <l7:Name>Internal Identity Provider</l7:Name>
@@ -422,7 +200,7 @@
                     <l7:Name>tacoma</l7:Name>
                     <l7:Id>52fc9ca1cb88be75903a209a7ed979da</l7:Id>
                     <l7:Type>ID_PROVIDER_CONFIG</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.401-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.758-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:IdentityProvider id="52fc9ca1cb88be75903a209a7ed979da" version="1">
                             <l7:Name>tacoma</l7:Name>
@@ -456,7 +234,7 @@
     <l7:UseSslClientAuthentication>false</l7:UseSslClientAuthentication>
     <l7:SearchBase>ou=QA Test Users,dc=seattle,dc=local</l7:SearchBase>
     <l7:BindDn>cn=administrator,cn=Users,dc=seattle,dc=local</l7:BindDn>
-    <l7:BindPassword bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu">$L7C2$1,ELh3kmCZT7t5YYLSWmIrDAV7JIdAowF0RBtl7Ebkj/o=$zkoupUzar7olyQoR9Xglimvnf5+60VnBeuUhCXwEtFpaYhML2QZbbwx1+qaqge6V3PWL2VX7w14i5pcqbUYWXQ==</l7:BindPassword>
+    <l7:BindPassword bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs">$L7C2$1,O1t17MmGM5v0DFaHMkyrh6MsrVFOcyo7zO/KSFGfeuA=$RuKmTp4OLBeS6eVo4QzfwDbwF6fQFBHwItv0X8d5Wy1rEPkiKwTuSAmdXDfekj4QXT7/LUihB86JqN+46DIpKA==</l7:BindPassword>
     <l7:Writable>false</l7:Writable>
     <l7:WriteBase></l7:WriteBase>
     <l7:UserMappings>
@@ -527,7 +305,7 @@
                     <l7:Name>TACOMA MSAD</l7:Name>
                     <l7:Id>e20e135c991fc80f9e180fb97e8d9bf7</l7:Id>
                     <l7:Type>ID_PROVIDER_CONFIG</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.402-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.759-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:IdentityProvider id="e20e135c991fc80f9e180fb97e8d9bf7" version="2">
                             <l7:Name>TACOMA MSAD</l7:Name>
@@ -561,7 +339,7 @@
     <l7:UseSslClientAuthentication>false</l7:UseSslClientAuthentication>
     <l7:SearchBase>ou=QA Test Users,dc=seattle,dc=local</l7:SearchBase>
     <l7:BindDn>cn=administrator,cn=Users,dc=seattle,dc=local</l7:BindDn>
-    <l7:BindPassword bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu">$L7C2$1,glIKwg1m0GHzXNgmmHjqN0pl4p6V+PIyr85KvILkiKU=$SjEyRMOThviaOxSEcbYUjjN2shO4dp9RGa1602DDzFtzIZOnbdhgLrlfq4g8NKx0g1quJOuCM6Tgmy0NJUwSvg==</l7:BindPassword>
+    <l7:BindPassword bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs">$L7C2$1,SsHZd78jvLAQjuLVM4lQArF3DpmXbDfprX+H+GVmKFM=$sWCSW1mGiVU1CNoA2vNLEw8FfMhG6CYy202qLN/bwnLr3PmiGah7Ndf0XfTGnxXGCt6d1cTPr5jfvhCn5neJYg==</l7:BindPassword>
     <l7:Writable>false</l7:Writable>
     <l7:WriteBase></l7:WriteBase>
     <l7:UserMappings>
@@ -632,7 +410,7 @@
                     <l7:Name>loopback</l7:Name>
                     <l7:Id>742a7604-699c-368a-a19a-0ddd73085575</l7:Id>
                     <l7:Type>INTERFACE_TAG</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.402-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.759-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:InterfaceTag id="742a7604-699c-368a-a19a-0ddd73085575">
                             <l7:Name>loopback</l7:Name>
@@ -646,7 +424,7 @@
                     <l7:Name>qatibcomqssl_client</l7:Name>
                     <l7:Id>00000000000000000000000000000002:qatibcomqssl_client</l7:Id>
                     <l7:Type>SSG_KEY_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.402-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.759-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:PrivateKey alias="qatibcomqssl_client" keystoreId="00000000000000000000000000000002" id="00000000000000000000000000000002:qatibcomqssl_client">
                             <l7:CertificateChain>
@@ -662,7 +440,7 @@
     <l7:StringValue>RSA</l7:StringValue>
 </l7:Property>
 <l7:Property key="keyData">
-    <l7:StringValue bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu" algorithm="RSA">$L7C2$1,VwggXA8ah2+1Us3CI9eoOUwLLJypecVpG0urxz6d1Bk=$KyxN6BWQr1OBm9qfWSS9DljF9eqWajXFIURLMYnTsFcBSH396QFdslSidWKd9z7hNutsQmsCmcNRHXn3NXn243Q4IHlNLSAgPfsP8ogZPI54cpf94w6+udFF1NJaRZZyEJKYzD/yt2i7UNYbhf+FjV5HyrRhuTqWbPsORj7zJvrV0+Ck9mA3IpEqkd13vvi9HQXcfy75FD2ZHe/ckpZ3ha0wmT7EVMnrSFITgbQJl9PgJVAPl7nXpn775J9I7QE8RPdDS96s0NDGo0IcqGzQGKtNZco+rnUft2HJ6M1KSk6yB80guKY3x23aYeRRHyHiyuRAunRQTi0WAbYIfq+g2iwA/mH6S6QdC9vytjv/psPao7W+oocApngISBWs8C8fKb3YfxGk3BCTWu9d8OQM40qnOlHssq4NpEZNjPTQOvM3DpP0OoKHEtpxEM4jeKJrI8WDpZ1UnQysuLhJ4eqz9JD5hoCmyVZrahSazC113dxr0tsl101BtaBWT8i0vtsJcs2OgVF9pVDDphOofREfnfq8uAcN051xVPwRXrMpnyRlFUHwem+u61r4CiYlBFfks3Qll9lCVlIriGkBW5khchmXGcYaXeLRt8pKdehjr2QSpOEO4DDNBlUw6PwxxYQ0xJMylA3VJ2dnRKn/zzBgb5Ube/7dIaIuwCgmUJ//XP/UwTKk05DeR/83+irWMdLLsEt9HYcQZIiVyzzEKx5CqL7R5hhx4/GUUJiKawp/rM2k1X0EqlHk7h1l4eeiOgoMo5C/V/CYz+7U6y5RjcdJJpioe1bFEFwzcFrVJ59b7rJ2h9EVF4ITXEeEJSgBi9QoaVjbPX4AKGctTBK6rhzPfOR/edNARmjAeKKTN9SRyS+Kks+CIwOxX9WeiEm7lNFK4/Ij+phs3G9rVI11h3ZbeJw9zfQsRvRqXZ/NxUS1bZ2czsn3v609L/RFK0WoLfDhOmW+Q8FKNhEM62coR6VLAOGjns2ax8jHYgRHsk10wSgS5yQaJwCxTbyj1OXwYHDCxvpp68Ge8OsI5gXMC2g4p1UsLCpC1zFdAlHIFs/QXPDH8IiwNqEi4bnGk7pQYorVT6Ifz2XGo4omn9MBh3nCh83OsOR8JRteszvP8nwb4cT0NZGHgOr6gDLNC1iaN4obThNgjjfGIKNVlRTSRfYoFgSw8FN+izMWjrVvvsu5nl3HfA9KUCq3B5/1Edj5QYXHlEmQNTLHO7sjp7QMJrvqNvEitPrgbZbf7EYQRXrYFm/xsQMdz9GRfYLH7NbLrSIrXXLkyeocwR5sLu2oEZePTVyw9lzD6wJE9Hd6NAcqZ7vTJ8WhH2cWQoxKJv0PYG2BoYsFsbaG+b+las1rwydwKLXkkepSBiQbmjwvh9pz4EaiElyPh2k3WZHG5ULebjFWahDuhPuYA3IvMaa7/TPCzdUqYYKLK35wxl7WCLcTaFaUNkjopk0y7hoFdW2+YQGiwWbg6ZWhxYC2OGNR0MyLWzTaTBdc8ykazmDw03WcuKEv8y4QlChaajwzAAfIvi9xxccLTAZeBB7E84T3IcjIsyzMB3vOLYUN9sALfbvoFvDKe9WP50Z+mwNyrCFqW6U6LL7FPBnoNfPcGX8M7+xZf8NlZtKDpF2520nk0jcHgiSJg4aHYIUrqMfZYyvQkm7j7omeeU9dEuE6wcPRqw+VIhbadE1Jx3NjTWE4xzNKh70=</l7:StringValue>
+    <l7:StringValue bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs" algorithm="RSA">$L7C2$1,Yn0LxH+fQ4EGxdfy5sKHuSB1RFyHVvexfFsr4Od0TFE=$m9SouAulxFWcqFkjHWEQARv74mW39TeZLObJ1vcxW2IoqJg5UQSAUAuZtvKW6EylrYgGYmTS0s61k7/bYULOBEQw7CucZvIwXZiWEJg3sEJnnAks7FfNLWAOX+WJe69k+XaEHc6YzTHX0YTIZ5eqiwreE0kkxfWueQf/EvLi3QPqJKu30mDE0hRWsOrTcRIrIIslVZ+/yjxuuWYWrzyWkrfPLmMJ8XPPAI6dc/Zw4QnSd8qiFQf5xZ0gqBN+UmiJpfUqfRa3SPt3o66pybkcI32HhiQ+Sf0i4QHM+chKnSl2J9P2/Utg0nr9AP2kuVRNStofoos+b07vhfsLf+hzwbFGJwD4XT5/N6l3X4oyc4KvbKdYUUEg9ctGg3FXe4ads+Y/D+vE12dKsvFMaLv3dMfqCzgNyKwbXcPvlSA9sYwGCHL1RQACOISsIerp1g5nWeKsuNkWLyowTtMwfmoJUvM8ePUmXV3bUmiNV6gUQqsZLzURJwL76bbdZg0kypsQAlC3aq5667kAAeyHpEBDvwZhYVN1qG8ylfiL92cV8awDYYH5r4n11j4++gF8i+q5WXLbzacCVu2kD31oKOs8GqUzKhd91SATs2eYBd4JT7n/fFmN2a2hwkq0odnCv8Vq0xWL2IBeSY0hNhdlKMScNj+gZHRUQdS6qWpevHMx5kq9gZEU3uQU7OkIS19MgSbb4LeDNcassFYnJT6DZaJ/3JWUIwj+rvH4sqkZNwfO5uzAmm0Hjgt82aBq0/NGJXQe6PXUPow+Qf1YcmyXpGsS+klW9CeUvwyT2f92aM5vEuaeBzNz9UWgldPC44VqWF1dN7FTHhhpm0dLIBtvXmE9n05ZHADVsx4INHRkRPErMNDBZFGibnqAv+iabXdEZuipr3kpW0mzw+rfV5V9PGQJqGkfiigR6Apw/31gly12TCk0ZjQY52S/83OEvJVyabXwopQ2i04c4s+1s7o2hEMrCBBWRi9GbrCe81y3rrdG+Zlcduku/enXfDNtnn5N7vPskC1bEIYO+F6mTjnE8F/BZlzfxU944IIW9N9M36ARBaiuZd7Ecd4y7DbbGBKyXYSaZ/8ZdS3sqmzUr0izgWL73HOeKWKsysIqL162MGxuTMtYM0T4gWOxLgAdaEpWoy+HqZt3AnMpJPg5rH7cjR+MzgDfo+1xQDLJskSM5mO6tKgsAJvxdKGWIXB/fQFXaq866b+WBOWNPqzfU5XQA+BtyUQdkkGss5GgiEG9UmbrA1QlRW3/cZdIk3zbTa3PAGo4/1c4h1iTEnsk86Ft6DSWISfeRGBw8ZVd7tDjcMhSXOxj9F9ULmRY94dwGB79dZj0PV+MpapMzrDGmKj+UYpaH3czFZ4LYdCir/rJzFvvmHjPRWOXr2QJtpZBpufGW9Zcd4sst8lq8S+CGW68rKjLaxfSvCwJn1vNkxh5HVlxGXQpf1Bs6yyE4p+wfs28zJYtXW54sCI7fJs6AbYRfubYPKLKAkr9OD2zlo5Jy8sG49ura8nBMztOV0gwtKCoalYtB6gvLyk4A0Fx2GeDoymzw7r3HCnqVM2AdBx90CMq6emhDXqJrVvfJtiTP3xfMyRLyj0YjW5DVoTOQHQPwHonYOkbI4Ns04xP9LRibtOHnGGxzmRE7BqCgCFXA6+3dLOO4duyEheM9XUUMXwGckPdTJlmpVT1/T2+giywvqMpShE=</l7:StringValue>
 </l7:Property>
                             </l7:Properties>
                         </l7:PrivateKey>
@@ -672,7 +450,7 @@
                     <l7:Name>sslssgautotestQueue1.out</l7:Name>
                     <l7:Id>0b7b602c748b29e2b5fda21962e614b6</l7:Id>
                     <l7:Type>JMS_ENDPOINT</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.410-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.768-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:JMSDestination id="0b7b602c748b29e2b5fda21962e614b6" version="0">
                             <l7:JMSDestinationDetail id="0b7b602c748b29e2b5fda21962e614b6" version="0">
@@ -692,7 +470,7 @@
         <l7:StringValue>AUTOMATIC</l7:StringValue>
     </l7:Property>
     <l7:Property key="password">
-        <l7:StringValue bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu">$L7C2$1,cWQoRIpAHStfQD1/DiBujUimdo/hhfZSNzzvuj4rcXs=$pzjgAFWoY/+hdrdCBaeWACa5O9v5++/RFZzEja9bKx+hzc1zxsUBVSt1QYGygBkw5K4BTkbpJXvHis5mZu8pzw==</l7:StringValue>
+        <l7:StringValue bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs">$L7C2$1,mgiqCsQ9ZRSgr0edqk1TtON+1cQbzZtybE/0J980cdI=$5JwJw9SfX/yYkZnjsCn+SMBCvWzDYA7g4WCWnFFcBhaXQ58gVogn84FuC9tefDAYL08pk+vhpOsOzfxH0wSh9Q==</l7:StringValue>
     </l7:Property>
     <l7:Property key="replyType">
         <l7:StringValue>NO_REPLY</l7:StringValue>
@@ -719,7 +497,7 @@
         <l7:StringValue>tibjmsnaming://apim-qatibcomqssl.lvn.broadcom.net:7243</l7:StringValue>
     </l7:Property>
     <l7:Property key="password">
-        <l7:StringValue bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu">$L7C2$1,GtUHZVTiUCjJDiC6jEaCp+FAzpVfNkongvEFGV1IbfE=$HWO18n9YN3QstHVBn7fxbIme4dG9Z4uoTwgFtaJxnchXOK8IcZ2Cf7qs1SZTeQf0eHZtnN6EoN1sYM/ZM7r+Pw==</l7:StringValue>
+        <l7:StringValue bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs">$L7C2$1,Zpw3xlRA/oSO7l/xz790kLMibVyApx3sw4ooXq2wHN4=$ataMjFGPdadpvCZwdft1D5122ZyivyzHFlT9v+hm18HWAtHhm6e0nKFee8NmjYSEmjnKZYX3t9azN9IKouCghg==</l7:StringValue>
     </l7:Property>
     <l7:Property key="queue.connectionFactoryName">
         <l7:StringValue>ssgautotestQueueConnectionFactory</l7:StringValue>
@@ -796,7 +574,7 @@
         <l7:StringValue>com.l7tech.server.jms.prop.keystore.password	00000000000000000000000000000002	qatibcomqssl_client</l7:StringValue>
     </l7:Property>
     <l7:Property key="java.naming.security.credentials">
-        <l7:StringValue bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu">$L7C2$1,pquXp+5JEriwpnUtCbQXRjWLHEEMJghRv2OYcnuXstE=$UbPRM1NLFSE7TWKSLgY+Z1ZWmTEEAyCJMJtJo/UO8AfEIyz16dO6QCjeqzIi7OmU8Va9UQNKHUZwO8kv6+f0KA==</l7:StringValue>
+        <l7:StringValue bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs">$L7C2$1,lBMZRtNQP8hz8nZ4zrgjLZS7+BdOk05o/wjgaZPbrOs=$qWAp7O3pxKtmxKeBrBD7iDsvnc/D6ct226eIi/8mkEIOdmgD9FmzD0hD2ikaxOGh6danA8e90xmXJJkbue2G9A==</l7:StringValue>
     </l7:Property>
     <l7:Property key="java.naming.security.principal">
         <l7:StringValue>sslssgautotest</l7:StringValue>
@@ -807,10 +585,39 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
+                    <l7:Name>SSL</l7:Name>
+                    <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
+                    <l7:Type>SSG_KEY_ENTRY</l7:Type>
+                    <l7:TimeStamp>2019-04-30T15:46:38.768-07:00</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:PrivateKey alias="SSL" keystoreId="00000000000000000000000000000002" id="00000000000000000000000000000002:SSL">
+                            <l7:CertificateChain>
+<l7:CertificateData>
+    <l7:IssuerName>CN%3Ddavid94c.lvn.broadcom.net</l7:IssuerName>
+    <l7:SerialNumber>9716484512772322885</l7:SerialNumber>
+    <l7:SubjectName>CN%3Ddavid94c.lvn.broadcom.net</l7:SubjectName>
+    <l7:Encoded>MIIDDTCCAfWgAwIBAgIJAIbX4y8pYPZFMA0GCSqGSIb3DQEBDAUAMCQxIjAgBgNVBAMTGWRhdmlkOTRjLmx2bi5icm9hZGNvbS5uZXQwHhcNMTkwMjI4MTkyMDI0WhcNMjkwMjI1MTkyMDI0WjAkMSIwIAYDVQQDExlkYXZpZDk0Yy5sdm4uYnJvYWRjb20ubmV0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtJF4QKF3NEkyJp4LDsdMd+fESRjrv4QnFD1X9EoOGuu7OZQjrN4+Xt7vPJ0m1cElWwEFUYmjKo8N7PWgugsD6hsZ/7qY5McYEQWjzwG198XCb/ONuIHPGxtzIL8MVvN9Iw/aFzdcHaaHiD+BH3vWQ4LzAd0rWgA71Fls5UCeewPh6eaTR8pavbCVSO3uvQEZ6g3W/C4vyMkskv/32glBDTPfXwcKr65aKPAvg8O8gyarRZCINAoirWl3wXxppqlePGbMluG7oUhtZp3PyW6jpz08RNAo4RN8Q/U5kMOrETorb8m5aBU+rzV2ss/s5mA2jw+r0+mhX9tbtwn17rnXDQIDAQABo0IwQDAdBgNVHQ4EFgQUYq+VHbU3DmsLFxOlQxojb7VtvKcwHwYDVR0jBBgwFoAUYq+VHbU3DmsLFxOlQxojb7VtvKcwDQYJKoZIhvcNAQEMBQADggEBAAM7cDT5TVmvcpyoyRgmpfKyguInifOYUIDIbJVcs2+6nY1aJQbNy+IGrZOtoUujPnlsHhOgi7TvQqZSvmhdPXgNVrnKZH6zIEzCX3QVja7q9t5AvOcY8iHC+NYMPmvoyZArbnriClLOwjDB0KUPPcEpS+Wqz2re9O274r5eboOafHp/TkHGNzTwtMeDn6VHAhI5LuHjq/s3psjviSclKal+87SienidijzGS+EjAlaxrrQxBG5c3B7hIQ+e95OqWgpY4Ls4zf4kGZPs3Pa+CO5wIE1S7zauHlnu4ADSzWAPfTPDpiLq14wFNLJLn5ZX2O+ucP4h9DapL0PaSHT06lQ=</l7:Encoded>
+</l7:CertificateData>
+                            </l7:CertificateChain>
+                            <l7:Properties>
+<l7:Property key="keyAlgorithm">
+    <l7:StringValue>RSA</l7:StringValue>
+</l7:Property>
+<l7:Property key="keyData">
+    <l7:StringValue bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs" algorithm="RSA">$L7C2$1,OwO/H4NmG/WCO8IzH2b2/ltr993mIZrqu1Nrg88NNdU=$rui/iOayaH3HJU5CGpjE2bYWzLqiEgQd4dW74a8+0H3NoHylad8kH5ckREM1GIMShyh/cxgdpfaQPIGxsgs4fbBViMu5XKaGwWp+aNDVKRiAicX+SIJHWs2jy3ZeoSixGZvTuP32q6jhV9w2FqGdol/r5rP0c92dLHSyL5R6u/mteUd8pM8cPa5i2jkpxt5+ahRtOX24B20/2hWN6BiAUBkFFuMuXEQHhEtYDY6PQk9+lkhqGQMGJKLSaK+xJYlKi2Z0JyhILJq1OfRrogCFfHE/Z/OaLVxx2LZed/Rng9/2YePBuJvlXYEPMfQnurf55RgGHPoD4lP4/HcDmX84GB+qqEFrJ9VXzOvbhmxmM0bbp/uYH2lUC3PWDVpsQ6PVjoycdOuQOxxz+uV+Zy6hmGBu9MKwrZKXoFeAaTlBixFubaOwcnyw+PZ1vUc1zioXQbqRJPM4zw49WgGkGFLqiXzL35oFP78wfax3vMFYlFsKzKwXdAGeO7V+VFTgbLPRSvPj55qXctBI2qrdAsyfEF6E6/PZ4JsCuuPzLxc3rgUaXXW3jvibKAPKQiQ5WtFyvlbkUbY7eEhg55CTZt6En7fM2MN08wa4QTRWPjtp6DRLpM0ocvv613BSaIDZgV9txZYOaDs3TyTRDQW2zzZwvabs0r9r2g5Km87wdvV3+dsMAwHO1mHYD1VIVBzkCcGOtaUB16e5MUGBXePrTb2nujSvgd/HHN0+Gh2PRvEzdqSO6BsS4UaFd3Fb02KMyV6PRbVdbinwaMrUzbEs5qWNXPF6tCsEs1bYiF+YVhyib4dT1kiYKvWPhVq41gwiSodz4/Pq/WXYo9WrDGEYiO/ShWcGcurvuo4dNoroP1S0WBPrJL3VgWLVQml3fbtQSN/cDoNBIljA5UgnXuQTQTY4ekeZcWkWWJ1DZ8OpWC0uDDyuRgIKkU5aa8hByNNqU2eJ8qtB9lIMeg9aCYFWZE32gyCR1VTFL6DFrN0fZPo7m92EJWEWFWTvwU3SezDFo2csPb9ZxOMeBS2q/A5NsUUd+Gsj4dC6KOD1UEpuGo5Ocy4yqiqrymQHZFWehlp8ymufdJj+nxVZZlPSrZw55Sfupjztd5I4ZeR/KGiMu+1gpl6mrD28YUf64ceDYW96erms1ywsMPJixZDrpwZ7eINIgtVKtn+n2whOS++GmDlp2AOResSbRjZeZ07LwJ/rAVhs6K/LqfGBMuCIBmLLsI3F2INRzmhaIOZPo8Xva+JV6aDhF2dMLO4uyHbkSfRrngtwmb8YzUL1pNkoHN08lDfGq7XeGqkpBO30hfBPVK//ZJdrVfmMPnCaUb2EzFlXCUDPXhMlJFHavWRYeNZONwAYCMgJuW6cBJ5YAFOfzNKTDRUES6vg+T9suUsyJYBd6MwKT6rfRZvtLGHd/+z74SpJlHTSzjGtEzHC0UltizyEvWrHvmix7VY8qmgvd6Vdy6YLBiyw9yDHEOSnbJMo+P4+g4WNasTiFF+A7zeOVdNpIgIvNq+eMhGf4BfvIVWopQhVdGx1GcSXDIWXv8Tv8xMo0+1gRalIDIFo5eWsHibh8R7axqQxoGjO4AVJbrMPEnc/goSZWZKhGTP+uLzHE7Uvl28BGnZIOf3ideSuuO8amqAIpgVAazl66FpZn4TUrmHtMZgPEkv8FeeasZa61zL2RtatFbUXP5yUqLQjjf9RMIQ=</l7:StringValue>
+</l7:Property>
+<l7:Property key="specialPurposes">
+    <l7:StringValue>Default SSL Key</l7:StringValue>
+</l7:Property>
+                            </l7:Properties>
+                        </l7:PrivateKey>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
                     <l7:Name>Default HTTPS (8443)</l7:Name>
                     <l7:Id>acb11723ef3ca24e7c3bf604e4829879</l7:Id>
                     <l7:Type>SSG_CONNECTOR</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.410-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.769-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ListenPort id="acb11723ef3ca24e7c3bf604e4829879" version="0">
                             <l7:Name>Default HTTPS (8443)</l7:Name>
@@ -881,7 +688,7 @@
                     <l7:Name>Node HTTPS (2124)</l7:Name>
                     <l7:Id>acb11723ef3ca24e7c3bf604e4829882</l7:Id>
                     <l7:Type>SSG_CONNECTOR</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.410-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.769-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ListenPort id="acb11723ef3ca24e7c3bf604e4829882" version="0">
                             <l7:Name>Node HTTPS (2124)</l7:Name>
@@ -925,7 +732,7 @@
                     <l7:Name>Default HTTP (8080)</l7:Name>
                     <l7:Id>acb11723ef3ca24e7c3bf604e482987c</l7:Id>
                     <l7:Type>SSG_CONNECTOR</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.410-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.769-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ListenPort id="acb11723ef3ca24e7c3bf604e482987c" version="0">
                             <l7:Name>Default HTTP (8080)</l7:Name>
@@ -947,7 +754,7 @@
                     <l7:Name>Default HTTPS (9443)</l7:Name>
                     <l7:Id>acb11723ef3ca24e7c3bf604e482987f</l7:Id>
                     <l7:Type>SSG_CONNECTOR</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.411-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.769-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ListenPort id="acb11723ef3ca24e7c3bf604e482987f" version="0">
                             <l7:Name>Default HTTPS (9443)</l7:Name>
@@ -1018,17 +825,12 @@
                     <l7:Name>metrics</l7:Name>
                     <l7:Id>c22cf9143e026a67e9b7842314b0bfe1</l7:Id>
                     <l7:Type>POLICY_BACKED_SERVICE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.411-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.769-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:PolicyBackedService id="c22cf9143e026a67e9b7842314b0bfe1" version="0">
                             <l7:Name>metrics</l7:Name>
                             <l7:InterfaceName>com.l7tech.external.assertions.pbsmel.server.ServiceMetricsProcessor</l7:InterfaceName>
-                            <l7:PolicyBackedServiceOperations>
-<l7:PolicyBackedServiceOperation>
-    <l7:PolicyId>c22cf9143e026a67e9b7842314b0bfce</l7:PolicyId>
-    <l7:OperationName>process</l7:OperationName>
-</l7:PolicyBackedServiceOperation>
-                            </l7:PolicyBackedServiceOperations>
+                            <l7:PolicyBackedServiceOperations/>
                         </l7:PolicyBackedService>
                     </l7:Resource>
                 </l7:Item>
@@ -1036,11 +838,11 @@
                     <l7:Name>admin</l7:Name>
                     <l7:Id>00000000000000000000000000000003</l7:Id>
                     <l7:Type>USER</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.420-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:User providerId="0000000000000000fffffffffffffffe" id="00000000000000000000000000000003">
                             <l7:Login>admin</l7:Login>
-                            <l7:Password bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu" format="bundleKey:sha512crypt">$L7C2$1,8EOdX+xuHFuMBJ7QwNxvEeXlaYeQI6rN/1jeS+NLqDM=$tjd1i+lKkWBzSTIEZb8HecG0hHJ6wnDgzQ/iqSD+84SnksJyo0MMOpWYt4HvgT3al+hLPw9aBav1EtTpj8w4c1NTLIT9ACJbaOdfh3wf58CWYsMwmggcXMbiX96v6sx97D+E7QRaXxeibpeiXKh6GhFB3TGVesBPaWz+6vYXRkAtulE3p8mlBku8zhsBfD2HqhT7ke/0dyk4BYCW3r4MxQ==</l7:Password>
+                            <l7:Password bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs" format="bundleKey:sha512crypt">$L7C2$1,4IGewH4I6CT4WhUc+1NgrZxJCMYZH1EvywMWx2xCDZs=$2uTKklCYCBxOUWLhJY5KJVHUh/eCaKjuZcizRJ8xgGQwV4HmWx3gpAE/NV5OMFQzFMhZQEleiIIXIBuP/A62Xg80rrIdP60jUnP3nR1x96wdA7xx6jxJC+a1Sv2gCqMDE5DWJqS3fuOH7CH4bxXZsZ40irqFO53a/neBP9zse+dhIpGwWnfy1A8/7RkqsgEyz8E3dvMgDRG4ZUK3OSPTmg==</l7:Password>
                             <l7:FirstName></l7:FirstName>
                             <l7:LastName></l7:LastName>
                             <l7:Email></l7:Email>
@@ -1062,7 +864,7 @@
                     <l7:Name>View Service Metrics</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffe0c</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.420-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffe0c" version="0">
                             <l7:name>View Service Metrics</l7:name>
@@ -1076,7 +878,7 @@
                     <l7:Name>Manage node Service (#e20e135c991fc80f9e180fb97e9190d1)</l7:Name>
                     <l7:Id>e20e135c991fc80f9e180fb97e9190d8</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.420-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="e20e135c991fc80f9e180fb97e9190d8" version="0">
                             <l7:name>Manage node Service (#e20e135c991fc80f9e180fb97e9190d1)</l7:name>
@@ -1092,7 +894,7 @@
                     <l7:Name>Manage Certificates (truststore)</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffda8</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.420-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffda8" version="0">
                             <l7:name>Manage Certificates (truststore)</l7:name>
@@ -1106,7 +908,7 @@
                     <l7:Name>Manage Password Policies</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffb82</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.420-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffb82" version="0">
                             <l7:name>Manage Password Policies</l7:name>
@@ -1120,7 +922,7 @@
                     <l7:Name>Manage tacoma Identity Provider (#52fc9ca1cb88be75903a209a7ed979da)</l7:Name>
                     <l7:Id>52fc9ca1cb88be75903a209a7ed979dc</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="52fc9ca1cb88be75903a209a7ed979dc" version="0">
                             <l7:name>Manage tacoma Identity Provider (#52fc9ca1cb88be75903a209a7ed979da)</l7:name>
@@ -1136,7 +938,7 @@
                     <l7:Name>Operator</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffff6a</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000ffffffffffffff6a" version="0">
                             <l7:name>Operator</l7:name>
@@ -1150,7 +952,7 @@
                     <l7:Name>Manage JDBC Connections</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffc4a</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffc4a" version="0">
                             <l7:name>Manage JDBC Connections</l7:name>
@@ -1164,7 +966,7 @@
                     <l7:Name>Publish Webservices</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffea2</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffea2" version="0">
                             <l7:name>Publish Webservices</l7:name>
@@ -1178,7 +980,7 @@
                     <l7:Name>Manage Secure Passwords</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffbe6</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffbe6" version="0">
                             <l7:name>Manage Secure Passwords</l7:name>
@@ -1192,7 +994,7 @@
                     <l7:Name>Manage UDDI Registries</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffc18</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffc18" version="0">
                             <l7:name>Manage UDDI Registries</l7:name>
@@ -1206,7 +1008,7 @@
                     <l7:Name>Gateway Maintenance</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffcae</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffcae" version="0">
                             <l7:name>Gateway Maintenance</l7:name>
@@ -1220,7 +1022,7 @@
                     <l7:Name>Manage Log Sinks</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffce0</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffce0" version="0">
                             <l7:name>Manage Log Sinks</l7:name>
@@ -1234,7 +1036,7 @@
                     <l7:Name>Manage Internal Users and Groups</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffff38</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000ffffffffffffff38" version="0">
                             <l7:name>Manage Internal Users and Groups</l7:name>
@@ -1248,7 +1050,7 @@
                     <l7:Name>Manage Custom Key Value Store</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffa56</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffa56" version="0">
                             <l7:name>Manage Custom Key Value Store</l7:name>
@@ -1263,7 +1065,7 @@
                     <l7:Name>ssg</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffcd6</l7:Id>
                     <l7:Type>LOG_SINK</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:LogSink id="0000000000000000fffffffffffffcd6" version="0">
                             <l7:Name>ssg</l7:Name>
@@ -1295,7 +1097,7 @@
                     <l7:Name>View ssg Log Sink (#-1,300)</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffaec</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffaec" version="0">
                             <l7:name>View ssg Log Sink (#-1,300)</l7:name>
@@ -1311,7 +1113,7 @@
                     <l7:Name>Manage Listen Ports</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffd12</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffd12" version="0">
                             <l7:name>Manage Listen Ports</l7:name>
@@ -1325,7 +1127,7 @@
                     <l7:Name>Manage Message Destinations</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffd76</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffd76" version="0">
                             <l7:name>Manage Message Destinations</l7:name>
@@ -1339,7 +1141,7 @@
                     <l7:Name>View Audit Records</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffe3e</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffe3e" version="0">
                             <l7:name>View Audit Records</l7:name>
@@ -1353,7 +1155,7 @@
                     <l7:Name>Invoke Audit Viewer Policy</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffb50</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffb50" version="0">
                             <l7:name>Invoke Audit Viewer Policy</l7:name>
@@ -1367,7 +1169,7 @@
                     <l7:Name>Manage Webservices</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffe70</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffe70" version="1">
                             <l7:name>Manage Webservices</l7:name>
@@ -1381,7 +1183,7 @@
                     <l7:Name>Manage TACOMA MSAD Identity Provider (#e20e135c991fc80f9e180fb97e8d9bf7)</l7:Name>
                     <l7:Id>e20e135c991fc80f9e180fb97e8d9bf9</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="e20e135c991fc80f9e180fb97e8d9bf9" version="0">
                             <l7:name>Manage TACOMA MSAD Identity Provider (#e20e135c991fc80f9e180fb97e8d9bf7)</l7:name>
@@ -1397,7 +1199,7 @@
                     <l7:Name>Manage Email Listeners</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffc7c</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffc7c" version="0">
                             <l7:name>Manage Email Listeners</l7:name>
@@ -1411,7 +1213,7 @@
                     <l7:Name>Administrator</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffff9c</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000ffffffffffffff9c" version="0">
                             <l7:name>Administrator</l7:name>
@@ -1431,7 +1233,7 @@
                     <l7:Name>Search Users and Groups</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffed4</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffed4" version="0">
                             <l7:name>Search Users and Groups</l7:name>
@@ -1445,7 +1247,7 @@
                     <l7:Name>Manage Administrative Accounts Configuration</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffb1e</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffb1e" version="0">
                             <l7:name>Manage Administrative Accounts Configuration</l7:name>
@@ -1459,7 +1261,7 @@
                     <l7:Name>Manage Private Keys</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffbb4</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffbb4" version="1">
                             <l7:name>Manage Private Keys</l7:name>
@@ -1473,7 +1275,7 @@
                     <l7:Name>Manage Scheduled Task</l7:Name>
                     <l7:Id>0000000000000000fffffffffffff92a</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffff92a" version="0">
                             <l7:name>Manage Scheduled Task</l7:name>
@@ -1488,7 +1290,7 @@
                     <l7:Name>Manage hi Service (#e20e135c991fc80f9e180fb97e8ffe28)</l7:Name>
                     <l7:Id>e20e135c991fc80f9e180fb97e8ffe2f</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="e20e135c991fc80f9e180fb97e8ffe2f" version="0">
                             <l7:name>Manage hi Service (#e20e135c991fc80f9e180fb97e8ffe28)</l7:name>
@@ -1504,7 +1306,7 @@
                     <l7:Name>Publish External Identity Providers</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffff06</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000ffffffffffffff06" version="0">
                             <l7:name>Publish External Identity Providers</l7:name>
@@ -1518,7 +1320,7 @@
                     <l7:Name>Manage Firewall Rules</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffa88</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffa88" version="0">
                             <l7:name>Manage Firewall Rules</l7:name>
@@ -1533,7 +1335,7 @@
                     <l7:Name>Manage Cluster Status</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffdda</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffdda" version="0">
                             <l7:name>Manage Cluster Status</l7:name>
@@ -1547,7 +1349,7 @@
                     <l7:Name>Manage Encapsulated Assertions</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffaba</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffaba" version="0">
                             <l7:name>Manage Encapsulated Assertions</l7:name>
@@ -1559,26 +1361,10 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage influxdb Policy (#c22cf9143e026a67e9b7842314b0bfce)</l7:Name>
-                    <l7:Id>e20e135c991fc80f9e180fb97e86a7d3</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="e20e135c991fc80f9e180fb97e86a7d3" version="0">
-                            <l7:name>Manage influxdb Policy (#c22cf9143e026a67e9b7842314b0bfce)</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, update and delete the {1} policy.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                            <l7:entityType>POLICY</l7:entityType>
-                            <l7:entityID>c22cf9143e026a67e9b7842314b0bfce</l7:entityID>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
                     <l7:Name>Manage Modules Installable via Policy Manager</l7:Name>
                     <l7:Id>0000000000000000fffffffffffff98e</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffff98e" version="0">
                             <l7:name>Manage Modules Installable via Policy Manager</l7:name>
@@ -1593,7 +1379,7 @@
                     <l7:Name>Manage Cassandra Connection</l7:Name>
                     <l7:Id>0000000000000000fffffffffffff9c0</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffff9c0" version="0">
                             <l7:name>Manage Cassandra Connection</l7:name>
@@ -1608,7 +1394,7 @@
                     <l7:Name>Manage CA Single Sign-On Configuration</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffa24</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffa24" version="0">
                             <l7:name>Manage CA Single Sign-On Configuration</l7:name>
@@ -1623,7 +1409,7 @@
                     <l7:Name>Manage Cluster Properties</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffd44</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.421-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.780-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffd44" version="0">
                             <l7:name>Manage Cluster Properties</l7:name>
@@ -1637,11 +1423,11 @@
                     <l7:Name>siteminder12_password</l7:Name>
                     <l7:Id>52fc9ca1cb88be75903a209a7ed941ca</l7:Id>
                     <l7:Type>SECURE_PASSWORD</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.422-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.781-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:StoredPassword id="52fc9ca1cb88be75903a209a7ed941ca" version="0">
                             <l7:Name>siteminder12_password</l7:Name>
-                            <l7:Password bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu">$L7C2$1,d6cJ+u0SuGhvmHHecDt3fRNyOmAa3EftuelJINs09zo=$kjwKsVh3ekblyyskBLY2NiTZhALT7CXyCPBVkS8ApoEz1r1IRhkJCUj+NIlz+7/b3OIkKT7A7meVmH0egTz+4A==</l7:Password>
+                            <l7:Password bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs">$L7C2$1,7YkL+YFDQ1+MgKtZIBVDyRJ7dB/sAcwYd2pgpJEsqJc=$mOnc1AR2YK3Lx4IiApYj3bnJutKWc2kMbn+EAlJ/5SrfdyszzVBNZFrUB/MF2fYtEI577tFpjv3GxxwiTdOMCg==</l7:Password>
                             <l7:Properties>
 <l7:Property key="description">
     <l7:StringValue></l7:StringValue>
@@ -1663,7 +1449,7 @@
                     <l7:Name>smautocompaton32</l7:Name>
                     <l7:Id>52fc9ca1cb88be75903a209a7ed941ce</l7:Id>
                     <l7:Type>SITEMINDER_CONFIGURATION</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.422-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.781-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:SiteMinderConfiguration id="52fc9ca1cb88be75903a209a7ed941ce" version="1">
                             <l7:Name>smautocompaton32</l7:Name>
@@ -1678,7 +1464,7 @@
                             <l7:UpdateSsoToken>false</l7:UpdateSsoToken>
                             <l7:ClusterThreshold>50</l7:ClusterThreshold>
                             <l7:NonClusterFailover>false</l7:NonClusterFailover>
-                            <l7:Secret bundleKey="$L7C2$1bead,pZjAsge/NxfYf42HTX6agqIarKf6jl2sqGQ63KcfkVw=$LweEiAwUwIT2wZpdkxasisOB6W1e5s7FtLHk5N4yo9WsHP1Jidto5jCAld9q3bNdNbFiBdZ0gZkFf8FSwcG710Bv8U7hj0JBe80pMq/HWeZNJ6kVrrRmXLUHSrLPJAZu">$L7C2$1,wPTXqljaaI5iW4vyhVTfL0R2LMx1cy3Rdrjeg8U5ZdY=$foT+unja9NskMiuzVbTBZvkWVPg1NqH9J7B/lw7v1MsWDHflGuSNIt3FxYgGMtlFbykCNWNr9Ff0O3iRftAb5lDsN0UIq2lHC4q1gOEzoltjWJZJvqamCrHYDp3Arl464Kky+TGGCWkURr/2uRs/m+Hq21/8x3ADbSaKA4svqfKg9USgsVLCOr5WFbThAbXsAHBgqOrYcYr1DmsohbEK0uP7f95LNgp5m8hpL5la+7Xg06NuPOnHgRcAXwS02caIelFl3gRhnSQW+86Ti3l/U9StnB12NHKTrABb4pluIFiHE4j9k1eNFZExnaCUz1ROGRCkaRyxAR8SIlcBt1U5Lw==</l7:Secret>
+                            <l7:Secret bundleKey="$L7C2$1bead,jydDgEO7xPEH5bwdFuaKy/eZXwaVBM6WlE0Sl2CrI8o=$COFWaD9q3lpaPn1KpUbyLauOnhpTbJFK3H1BvSs32TNT+vR0makJh73rHRUM8cNxn+09LJgeWHQk1IzfBCDOmML7Jz9pNYzpfTIq43D9psp/WLnQRgxfV+XKOIB2jxUs">$L7C2$1,ZAZuFmwZk2XsWzMh3eh8DIVouHlnPUrtYQTb+w8NZKA=$w/8dsu4pkVRGsT38/7n1L+ScWmAU1o+vxAGpvuIFMifKV6PNblQM5i+GPh38RWDOR3oM1jkK+XPoWGHg4h80b3xsDo1iwe68TP2w2BtQ214hzt91ArOs2VZj//bAV/XvtWwTMfp5WC+BiLb33cs072Q06XjN3kBggWjjx5cbx5vUl89c2qKK/tuTd1f/p65TyTV1v7dxHdchZgffG3B4NUfKMlfyKdK0iZ0xMs52pwXS4xNzyJ+pm3rQRrCya5MPyDlnEwjxjgJ/1AvaYw12M6Do2Ic9QvXss6GlBqndOrQrE8Q3w9+rvJjriIpzObf52pDgjnpJ+BT5N2xk1eL1jg==</l7:Secret>
                             <l7:Properties>
 <l7:Property key="server.0.0.accounting.port">
     <l7:StringValue>44441</l7:StringValue>
@@ -1712,7 +1498,7 @@
                     <l7:Name>gateway-hazelcast</l7:Name>
                     <l7:Id>acb11723ef3ca24e7c3bf604e48298a8</l7:Id>
                     <l7:Type>FIREWALL_RULE</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.422-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.781-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:FirewallRule id="acb11723ef3ca24e7c3bf604e48298a8" version="0">
                             <l7:Name>gateway-hazelcast</l7:Name>
@@ -1742,7 +1528,7 @@
                     <l7:Name>http://www.w3.org/2003/05/soap-envelope/</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffffc</l7:Id>
                     <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.422-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.781-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ResourceDocument id="0000000000000000fffffffffffffffc" version="0">
                             <l7:Resource sourceUrl="http://www.w3.org/2003/05/soap-envelope/" type="xmlschema">&lt;?xml version='1.0'?&gt;
@@ -1915,7 +1701,7 @@
                     <l7:Name>http://schemas.xmlsoap.org/soap/envelope/</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffffd</l7:Id>
                     <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.422-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.782-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ResourceDocument id="0000000000000000fffffffffffffffd" version="0">
                             <l7:Resource sourceUrl="http://schemas.xmlsoap.org/soap/envelope/" type="xmlschema">&lt;?xml version='1.0' encoding='UTF-8' ?&gt;
@@ -2005,7 +1791,7 @@
                     <l7:Name>http://www.w3.org/2001/datatypes.dtd</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffffa</l7:Id>
                     <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.422-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.782-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ResourceDocument id="0000000000000000fffffffffffffffa" version="0">
                             <l7:Resource sourceUrl="http://www.w3.org/2001/datatypes.dtd" type="dtd">&lt;!--
@@ -2224,7 +2010,7 @@
                     <l7:Name>http://www.w3.org/2001/xml.xsd</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffffb</l7:Id>
                     <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.423-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.782-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ResourceDocument id="0000000000000000fffffffffffffffb" version="0">
                             <l7:Resource sourceUrl="http://www.w3.org/2001/xml.xsd" type="xmlschema">&lt;?xml version='1.0'?&gt;
@@ -2384,7 +2170,7 @@
                     <l7:Name>http://www.w3.org/2001/XMLSchema.dtd</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffff9</l7:Id>
                     <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.423-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.782-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ResourceDocument id="0000000000000000fffffffffffffff9" version="0">
                             <l7:Resource sourceUrl="http://www.w3.org/2001/XMLSchema.dtd" type="dtd">&lt;!-- DTD for XML Schemas: Part 1: Structures
@@ -2802,7 +2588,7 @@
                     <l7:Name>sspc</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffcd5</l7:Id>
                     <l7:Type>LOG_SINK</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.423-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.782-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:LogSink id="0000000000000000fffffffffffffcd5" version="0">
                             <l7:Name>sspc</l7:Name>
@@ -2833,7 +2619,7 @@
                     <l7:Name>AuditConfig</l7:Name>
                     <l7:Id>00000000000000040000000000000001</l7:Id>
                     <l7:Type>AUDIT_CONFIG</l7:Type>
-                    <l7:TimeStamp>2019-04-30T15:33:41.423-07:00</l7:TimeStamp>
+                    <l7:TimeStamp>2019-04-30T15:46:38.782-07:00</l7:TimeStamp>
                     <l7:Resource>
                         <l7:AuditConfiguration>
                             <l7:AlwaysSaveInternal>true</l7:AlwaysSaveInternal>
@@ -2849,8 +2635,6 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
-                <l7:Mapping action="NewOrExisting" srcId="c22cf9143e026a67e9b7842314b0bfce" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/policies/c22cf9143e026a67e9b7842314b0bfce" type="POLICY"/>
                 <l7:Mapping action="NewOrExisting" srcId="e20e135c991fc80f9e180fb97e8ffe28" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/services/e20e135c991fc80f9e180fb97e8ffe28" type="SERVICE"/>
                 <l7:Mapping action="NewOrExisting" srcId="e20e135c991fc80f9e180fb97e9190d1" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/services/e20e135c991fc80f9e180fb97e9190d1" type="SERVICE"/>
                 <l7:Mapping action="NewOrExisting" srcId="acb11723ef3ca24e7c3bf604e482a38c" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/trustedCertificates/acb11723ef3ca24e7c3bf604e482a38c" type="TRUSTED_CERT"/>
@@ -2873,6 +2657,7 @@
                 <l7:Mapping action="NewOrExisting" srcId="742a7604-699c-368a-a19a-0ddd73085575" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/interfaceTags/742a7604-699c-368a-a19a-0ddd73085575" type="INTERFACE_TAG"/>
                 <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:qatibcomqssl_client" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/privateKeys/00000000000000000000000000000002:qatibcomqssl_client" type="SSG_KEY_ENTRY"/>
                 <l7:Mapping action="NewOrExisting" srcId="0b7b602c748b29e2b5fda21962e614b6" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/jmsDestinations/0b7b602c748b29e2b5fda21962e614b6" type="JMS_ENDPOINT"/>
+                <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
                 <l7:Mapping action="NewOrExisting" srcId="acb11723ef3ca24e7c3bf604e4829879" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/listenPorts/acb11723ef3ca24e7c3bf604e4829879" type="SSG_CONNECTOR">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
@@ -3161,16 +2946,6 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="e20e135c991fc80f9e180fb97e86a7d3" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/roles/e20e135c991fc80f9e180fb97e86a7d3" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                        <l7:Property key="MapBy">
-                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
                 <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffff98e" srcUri="https://david94c.lvn.broadcom.net:8443/restman/1.0/roles/0000000000000000fffffffffffff98e" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
@@ -3224,11 +2999,6 @@
                         <l7:Type>FOLDER</l7:Type>
                         <l7:Dependencies>
                             <l7:Dependency>
-<l7:Name>influxdb</l7:Name>
-<l7:Id>c22cf9143e026a67e9b7842314b0bfce</l7:Id>
-<l7:Type>POLICY</l7:Type>
-                            </l7:Dependency>
-                            <l7:Dependency>
 <l7:Name>hi</l7:Name>
 <l7:Id>e20e135c991fc80f9e180fb97e8ffe28</l7:Id>
 <l7:Type>SERVICE</l7:Type>
@@ -3237,23 +3007,6 @@
 <l7:Name>node</l7:Name>
 <l7:Id>e20e135c991fc80f9e180fb97e9190d1</l7:Id>
 <l7:Type>SERVICE</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>SSL</l7:Name>
-                        <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
-                        <l7:Type>SSG_KEY_ENTRY</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>influxdb</l7:Name>
-                        <l7:Id>c22cf9143e026a67e9b7842314b0bfce</l7:Id>
-                        <l7:Type>POLICY</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>SSL</l7:Name>
-<l7:Id>00000000000000000000000000000002:SSL</l7:Id>
-<l7:Type>SSG_KEY_ENTRY</l7:Type>
                             </l7:Dependency>
                         </l7:Dependencies>
                     </l7:Dependency>
@@ -3315,6 +3068,11 @@
                         </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
+                        <l7:Name>SSL</l7:Name>
+                        <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
+                        <l7:Type>SSG_KEY_ENTRY</l7:Type>
+                    </l7:Dependency>
+                    <l7:Dependency>
                         <l7:Name>Default HTTPS (8443)</l7:Name>
                         <l7:Id>acb11723ef3ca24e7c3bf604e4829879</l7:Id>
                         <l7:Type>SSG_CONNECTOR</l7:Type>
@@ -3359,13 +3117,6 @@
                         <l7:Name>metrics</l7:Name>
                         <l7:Id>c22cf9143e026a67e9b7842314b0bfe1</l7:Id>
                         <l7:Type>POLICY_BACKED_SERVICE</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>influxdb</l7:Name>
-<l7:Id>c22cf9143e026a67e9b7842314b0bfce</l7:Id>
-<l7:Type>POLICY</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>admin</l7:Name>
@@ -3571,18 +3322,6 @@
                         <l7:Name>Manage Encapsulated Assertions</l7:Name>
                         <l7:Id>0000000000000000fffffffffffffaba</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>Manage influxdb Policy (#c22cf9143e026a67e9b7842314b0bfce)</l7:Name>
-                        <l7:Id>e20e135c991fc80f9e180fb97e86a7d3</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>influxdb</l7:Name>
-<l7:Id>c22cf9143e026a67e9b7842314b0bfce</l7:Id>
-<l7:Type>POLICY</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>Manage Modules Installable via Policy Manager</l7:Name>
