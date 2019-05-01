@@ -72,6 +72,60 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
+                    <l7:Name>11</l7:Name>
+                    <l7:Id>e20e135c991fc80f9e180fb97e919caa</l7:Id>
+                    <l7:Type>SERVICE</l7:Type>
+                    
+                    <l7:Resource>
+                        <l7:Service id="e20e135c991fc80f9e180fb97e919caa">
+                            <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="e20e135c991fc80f9e180fb97e919caa">
+<l7:Name>11</l7:Name>
+<l7:Enabled>true</l7:Enabled>
+<l7:ServiceMappings>
+    <l7:HttpMapping>
+        <l7:UrlPattern>/11</l7:UrlPattern>
+        <l7:Verbs>
+            <l7:Verb>GET</l7:Verb>
+            <l7:Verb>POST</l7:Verb>
+            <l7:Verb>PUT</l7:Verb>
+            <l7:Verb>DELETE</l7:Verb>
+        </l7:Verbs>
+    </l7:HttpMapping>
+</l7:ServiceMappings>
+<l7:Properties>
+    <l7:Property key="internal">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="tracingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="wssProcessingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:ServiceDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy"&gt;
+    &lt;wsp:All wsp:Usage="Required"&gt;
+        &lt;L7p:HardcodedResponse&gt;
+            &lt;L7p:Base64ResponseBody stringValue="MTExMTExMTExMTExMTExMTE="/&gt;
+            &lt;L7p:ResponseContentType stringValue="text/plaintext; charset=UTF-8"/&gt;
+        &lt;/L7p:HardcodedResponse&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Service>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
                     <l7:Name>apim-hugh-new.lvn.broadcom.net</l7:Name>
                     <l7:Id>acb11723ef3ca24e7c3bf604e482a38c</l7:Id>
                     <l7:Type>TRUSTED_CERT</l7:Type>
@@ -176,7 +230,7 @@
     <l7:UseSslClientAuthentication>false</l7:UseSslClientAuthentication>
     <l7:SearchBase>ou=QA Test Users,dc=seattle,dc=local</l7:SearchBase>
     <l7:BindDn>cn=administrator,cn=Users,dc=seattle,dc=local</l7:BindDn>
-    <l7:BindPassword bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9">$L7C2$1,129M3JnPQftcUfagauYjbj6BbEDI8FUo6GjzieJbNoI=$pkEwhtauBRzpKHTbNnTwIulLwzziJyNc3RWbokeLd9ydgw2ha611UjU49WHjq0vd6s5+zOXo/yyFv1tygBLwVg==</l7:BindPassword>
+    <l7:BindPassword bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd">$L7C2$1,MwG0YUMlaWewumD32Od54V35PqjnxtTOgJbrVjTMNnQ=$39rMjMK7WXsBH3s8pibwYY87s8FnolcdTNF1D4QJJ57+sV7hsXNPyBr2roctQyJtFLA5L0uR3Uxw68mIyk+flw==</l7:BindPassword>
     <l7:Writable>false</l7:Writable>
     <l7:WriteBase/>
     <l7:UserMappings>
@@ -281,7 +335,7 @@
     <l7:UseSslClientAuthentication>false</l7:UseSslClientAuthentication>
     <l7:SearchBase>ou=QA Test Users,dc=seattle,dc=local</l7:SearchBase>
     <l7:BindDn>cn=administrator,cn=Users,dc=seattle,dc=local</l7:BindDn>
-    <l7:BindPassword bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9">$L7C2$1,bC31EAgK9EpmSX3ey3bxKiNd5I4hE7QnlAFT9qxy34o=$tR3WVnWUBbT0HngC99NEKUBgLSbU0aWztd3m1VLOiM8hLRf8u9dH2MQCP9DM+bK4YuV6R1pBtYfbdDiKfGbGCQ==</l7:BindPassword>
+    <l7:BindPassword bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd">$L7C2$1,5l4hG1ioYyr3AeJUxbtJxaYS+KXI9aYbXAcdHWaPRHk=$IC9ctDs2/K2HgNP3N1DWByJJyIXePcTOpu5eGZwPTkBNetQlIZH8AC7VNXSdfbHCDp9KGzaAlRKx+9kKK4RLkA==</l7:BindPassword>
     <l7:Writable>false</l7:Writable>
     <l7:WriteBase/>
     <l7:UserMappings>
@@ -382,7 +436,7 @@
     <l7:StringValue>RSA</l7:StringValue>
 </l7:Property>
 <l7:Property key="keyData">
-    <l7:StringValue bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9" algorithm="RSA">$L7C2$1,7GeZ/nJ8inPzDmpiR0djulBKTlcLTtagzrYr+zakCPU=$djmwu2/eD04WUuW3B0ZV/owQGUlyGMDUzVUw8K+GzD8rY9PomRjcYTRkC7WahLTGa1BAC4D1usOllKiW1Z3rC31rZ73FMLGzVB0zJME4E/Pg7BSggT5OYyYf6e40lNgXmc52CylKalKtgCoQYvltntl8lJx2gEVxbmoY+ii7gE0Y7a5SWPH2CKpIpGsrVn2N1FGEXL0YI10onWZbtGX4lp3f3e8IetdmAU68FEwQ70RpuS8Qupvf1otkcRi/7Igoo7egV99kW/RK5gYNfA5eggjrtzyS/05SGGP3Vpn4Aopa3g9HQbX5Pb0gIteJcD8hxh+aZUHKa43uOnhm2rS/i3JCo3WlEeqToGIuWJgW1ZdE3f9/U8omhTExsLv+I+zqkGKW/Ai9rBEP4x+BplbuAhIa+Br8+pD4VZyXpDFEIsQZrftp0lDlpU8yY+LQAN8mWYbsRRIPzmxPmfsKi8Upfa6UA2dtdhYI0ZRI0MWwV/VUisGrqgeBsgS6FB22FZlrID5SKdheFJaYHXi7LGLb5y65KNqii31WC/UjAfOyxxgkjYifTlg+1yG8QeUOg/Fn2anJXod+dsMaRIb5dOmjLQLHoC9RVFR2m3x6aZShSb8KQbDhxIOX81rwu34Sw1b7OxOxjWbkJasyd3mJzlzy2D3cuu5EpM79naHuPlrK6KWjOENhKjIAavqbzNIQ/I6sDjr05ENmROPV754vp40u1hLC11lZl0yofBrqPTUcL5oYh/42zgtRbRqsDZW12xE6l2ht3Kt+iqU+PAba6wyAWLv7wUNHKU8VuxaHx+VLgW3fv2WRPWk2BUat9hBRmdA7tWYTMMld/3zl5DunP76at8pgR03HaQ0vIS3u/6RUNAnVjOgLJtX9bUdfXqb/nEK5HL6tNtuPR1uN9M0AlordKXZkxtJbz6kiodYxLFpEyPltbeLfmQMCjHw5UxSDO4py/hL8cTlx2b7X2TkLdEwJ+eKIOt0mDoepskw/rY1V7fBEZjsSzPxelwRGm6wkx91dSOL8yq4CT2bosHNcNF9S0mqA6GbplzVNlESkGomnGQEKftP6yv/kT66TQEY79QhG/f1iQyPWz3e5AgyUdb1IQ0wHzrk4UYmy5nRL13sOdmmBg6ppqRrAUlu909kLJjR8vQxpIPIMSGW0xYdaTsKWtGafdINxlLpknRbVI4InKtViVEY2FtD25OEfg/s8jbn8Isn4VKjKzzJHZvwVkNfVwxrM4Nvk8EX0FzOlHO/GYAPHBZEg4D/2JWtrrC3Qu18AB14oAGfNu5nyNKWwoXSaE05aHx/fzpTK/39JqPIkzcHI0xspVpwNOH60AQYuHIfQCdNGC3CWttqapuTanRsu79Jfdd4H3jmBZhHNIw3Dnlx/KLRQ0+9iIeIXm9U8umVkOOKyG46AwTRnS7lMtxL9b31V3zKwbD+mZ3LjteL+Xr2gJMDIIISbOl6KHLpDYPhLX+Ud31lYNcXLhve6cKuixS1RWQEm4qgyradOZBrUPVaQotveWF8hfoU+PRO8L8K0q7yLAIycYUJptP0YQ8fcSpuK0PWEeGF949ubtxqhlK935qCm3gB00iM08eb0IoPjL5NpTUVxmE2b4P+MbYdapO9EQqsxsc7hsch6MvFFyNhJKSmXAVRZ/ySG/Q3od93Kj8TQzHrSRMKmFBPuEHRzqeVB5So6WZ2KqkMn8JQ+XII=</l7:StringValue>
+    <l7:StringValue bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd" algorithm="RSA">$L7C2$1,nPz64iNUoqNg69laFc0P8inuBDOrjCMvndTY5b1rNow=$6YF9i81jqHVB1M6S++IVfQSzqkxeQQQvU+5G6vUbOCyigFSBcmkKeffmO0KFiC4z7KfXlDIbRBciFLEVs94AWRQ6orjyJjvnpClPLEh0GsjtMTf1lx8FDVCT4ZJ9Yb2MhLgMQjZn6bX+U19ZFNqu8lmnR0SQGhAlijmIxMpzWeoua9Fc+vQWXSqv9MBlUNd0yssthzPWukPXwVdhhgz+w9ERh+DVZIdyqtZjKqwMM5RwBgyiPejjOzRQOpQY97bVfGJ58FaGK1SH+1u6vWQ9N7k+MVsMjAbUSLjZqd9SpWDKGzK6+mKRy3ENcza9vfb3GJ8lb9t9G4DzLGmPNrPhsg5hPp9ydFi80e9FDFsmUQLXju3DCA90cuSPQeNo0vbSfj/xCRukxbSQrZyLPwIqNJ00kTYw8NPQikLBrEcBE3FgL5ZCZ8jhYekD+WuIel40X6DdsWxFVRtI9h9eu1ApQuQFWGgxQa2Qjdku4qH9KeOxNZ7VzE2jWhd/2WFl+2jVJC1+IZePIcBzEi4Bdn56mjqALsBTYSnrYjX2AEhp+2RCDkUYKhw1VEcRw42jAaiLhKf+YE5vfOvTSZz+wJ6EIYuG4m2D1vXdqMI9sn7sbFO3kfKp8T+sPMucrp44BlGdfaiVH0hD4SbLPKzttmNwaCs1rmyiVZkeFDpkVdjs8hUbSb7xSuYUWR128VdQjGwPzmZTay88qP3e84SFtxJzIti+gFIQbQPggKVprYg9iyQGXcKBZDiA0YxrV56fHkXjGect983V8ZbhuPJgAsf6kMFdx0c+/9X4XpkuEoN1o+QH45KsYrAwcC+P4EalQfp87IxAT4X7nSfYmsqEjGg3bf+LACQoSSjRBEckOgKqf8i8NWUBe2LdrbHG8Cf9FhJHSiBSp67DMnXtyvm0916NxEzBhfviWqnbBLxlPHXYNUT7fx1UZzynvgHeRrCxk0NNBDgL7s/BNNQW+acz9rCPr+vmkn95pTyI4x2gZrIZOd59WGfOOrfIO2YKySw1n5/wibBVFnOz5NTDHzpdZMcrxhYQ/goYaVKGgYY7PACVwy0cO3DtbzvvDlvl6apVYbr+S1fEU9hOCoo9tDYqNaIuCnIVrWHt0SSIa4PniLOXJ30E3E5slTo27Ei4zwNtfEZVn6Gloi1a+Klu7Zgbn3funNfV70uOJdm+7mKxgzIIyKY0kDEQcHRC62dnKIDEgd4t/UocrWmLCkcHQMkag1CW7L9fl6ttRfzsmvnIS0hWg70DShDR875zJInvSb5PTAYyn35c9UD2wPLRQv+RY2vVB/TI2IScxaZkl8sQwYimpEJLzZSOn35J6fIjSbJYaCEZwryFOj33aM/94GFg/FhPTfmb54SWBFLmLBMmjWhChA9tesrnsLE0jShc9jr+MRIvQGvKHN2Xbploi4WKTC3MdM1D4wHLaoMZ8L5OflERvYP0t/xmBv7vIhrn7gexPj0wE+qRCh6bHsA9vammoqguBC1v4TZo9u651NToImw1T9g3AplSZpYyVjTIGNhlSKQFCuiwQN8U/PGarMxczmDnfwX0xP6rfmxRduglOcbs7Bn4A0JoKnMODWBBgin8rcm1dKxqZGezW66gh1MhbjQrVJngba78Nd8z9qwvU5ZU3SEVN360vkiKbmqz3gm72JcC7Ie1Pesh60EXHNrjOM4y/Tp4TUMeeW0HIPkm7Qy8W/0=</l7:StringValue>
 </l7:Property>
                             </l7:Properties>
                         </l7:PrivateKey>
@@ -412,7 +466,7 @@
         <l7:StringValue>AUTOMATIC</l7:StringValue>
     </l7:Property>
     <l7:Property key="password">
-        <l7:StringValue bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9">$L7C2$1,bZTYJnvdE5gd60hblbwSCVEO+kZ+ixsPIkVbhvqjlGM=$w6YQ8/WQt1U6GWiWyKpU1fUirFPbPr+mXvXvoJOMqunmZBn51y6GN9iAArlv4JqV6Ep7r7A0AfttookuBgEWdw==</l7:StringValue>
+        <l7:StringValue bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd">$L7C2$1,DfUwnrhjI0mAhsAN+pR804BrUemqYq/6bFY9YPbVZpY=$7/vkP/IMgfq4nQ8swsgxwhttzunIBnAmVk3oscatOIwrYAup9zOqCJhMW3PEtePSP0MODW1rxE83VDz2CDPlVQ==</l7:StringValue>
     </l7:Property>
     <l7:Property key="replyType">
         <l7:StringValue>NO_REPLY</l7:StringValue>
@@ -439,7 +493,7 @@
         <l7:StringValue>tibjmsnaming://apim-qatibcomqssl.lvn.broadcom.net:7243</l7:StringValue>
     </l7:Property>
     <l7:Property key="password">
-        <l7:StringValue bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9">$L7C2$1,nO5c60BD1qSRtJ0U/9tRmSB+1x4+TdGOjyoQRx6fylM=$iAw/yDfOl0hiTwBxZ800gcUY+Yq090N1iPvAz8I9GqHuySVWgsG+ZRonay+tbbg09FQ/4UEajSxvuXmGpInSIA==</l7:StringValue>
+        <l7:StringValue bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd">$L7C2$1,eeGQfqoN70T2NxttpFo8TZct8PXJ7nAnko4UG2P1oZE=$4/7dhdJq/jA4x7B/wgN+10krY6ON11DbzVWz3QA9cOIM2p3/1qvtq0KTqIQRHiZjfa3hOsu0P6SYaggsrFvFqg==</l7:StringValue>
     </l7:Property>
     <l7:Property key="queue.connectionFactoryName">
         <l7:StringValue>ssgautotestQueueConnectionFactory</l7:StringValue>
@@ -516,7 +570,7 @@
         <l7:StringValue>com.l7tech.server.jms.prop.keystore.password	00000000000000000000000000000002	qatibcomqssl_client</l7:StringValue>
     </l7:Property>
     <l7:Property key="java.naming.security.credentials">
-        <l7:StringValue bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9">$L7C2$1,r6NZh6i7gMKAWkeMFo5bHuZal0DrRHHsnfcmCJtbPZQ=$cjbDBhDm6Fgnc5RPijYafO02z/ygg8iYOYMXY6CYq2dXViplR3Rq3R/RhBiOEnSOWqcfA99umPj0XCjJvL2tKw==</l7:StringValue>
+        <l7:StringValue bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd">$L7C2$1,5nKAT5bwy3B7semEW5Kjeh0j2dIFImdcgW6fUpf3Fg8=$2mW64svfjRxfdzLsu/tk2K7rPNVyaYnQnzLqW+O94H3jJtS5jnSnaSWLsp8XfazprBZv2eCJj1gNIZnrn1WhRQ==</l7:StringValue>
     </l7:Property>
     <l7:Property key="java.naming.security.principal">
         <l7:StringValue>sslssgautotest</l7:StringValue>
@@ -546,7 +600,7 @@
     <l7:StringValue>RSA</l7:StringValue>
 </l7:Property>
 <l7:Property key="keyData">
-    <l7:StringValue bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9" algorithm="RSA">$L7C2$1,/KmonEvE1OaPkDenufV8vgMc98NnXR585XMo/0daQ2c=$cLrvzpTcGKBMoqOgbzkwBm9kJ3LE6uVOYpFBoGbYxc9e/Tm+nYSz3LR4qDl48LylWhF33/9Umf5OjFRQrji9RXUhrpSa1aPAZdO+cvJN1e6fAuyeIQfua2lfKumMa+/FdKwZYcICN6//r7N6yTalZw6BAfb92Fyn41Agip/sphWqnEvnRYxgPRxbC774VG2s1Nfikn1CZvVRuQE9Boeb1gyXpipF3PmHOI2sd6qTskdUn6lq+9g3Fn+WqU8KDGvahiEnpGULxCF3pTVTZF0/4kwkwvAGdKPMTjD/uGTWMubhYn+7wwOzjXZ225T+j3rFGhL7Onszw99jRZGTPeI3/yk8w/1E9zP+vTE5rbvmw7YLUNqvUJV+lUMRglK2Mls2y7LCLHNeEfh6do8O1sjT73bfvB319Y51EI00o/5HpGON1hFSgvU87zNPnHSAWigkkhvFDLzHD4zAc1PFWRZw5YGRQl9Hs41SMMZhYBfJODx7rbgIl5jFfsG7E/sZuv3+EC4yn4HWw4XlMazA2nB4ESh4KuYIMpcK/32pGpGvK/d3GNt+v96gEwMIAEDrqiAXmUxIlLYxHLBnk9qm2fix799Zmm/QGF+JnFBmJc2hkg5T7lT8VtIwmYqKrpKPRIWGlwaLqI58vZ3oSQ0YwP47NqdpEuE8lYtVT8+Jdu3HLzva46E+ECc9bb/mx21TMMTXFJhnLukzj6iFoBzX/P9eQTpEZ+kdrNuDZFCzJj7N+7zyXQYvQrhoGmfBKh6FjdAvZd3aUra4luepfyn7dRyfdYQa8oMOrduAcI3ATbeAPWIPUp2RU1NUG3S/FVVaFTEf3Se0lEo4UTbFa1rjHonQK30q3ZeeIVvQJxNdxfE/Kfmf444JIab3PI8SlCCGjb7vdzSUu/Il1w67k7fYM+TMBpCEjCVjNDnAwRWus6HVTndWM1IabenysQoZy3jvd18xZ8UPwZe0WtKjwQFMDGJNoxL3Vi13wVadgq6vpyMrIq6HMQ7cdOQZKYx7PRfvQNOJZVUmq5WtKTXpa4Owc5KAYbY3g3tOrf48Wu1wVmDsR6SVWbeT6zn1kVEZ3MgcIEumgtfYIqyTnSbO9Hgmg8+R7Mex0xrIIws/YjT0tK6hpBthgZmlZQlrKkKDHiUNUk5ScTcFMcJP/8VwRxxB9UDKBaerM5Byhsy2GdgYehaEMhCmjmQhkMavIwuYc0/SKFU+mWrIS5UP632kMVr3LKVRgvWD3neCpPAG7hO9uB6wwrJ0G50rqThJdNw77YGkxcqogKZZUaiH/aAU19DN4cPUSsQ23SUFp23fB9hvI2pCdClBF9ofRoWe81JGvnQLEc/wLDUVUe9EmqPDcOF6DTyxBm8w3FT6yDjGQlxdxcNApJXkxm7JzzlgR6kf5cnGqWuy6NWF+1TEX3IHq0jXOVKYmgk+LqhSpexRL38d1Q6QbE6pzg1d9DoF5sd47Wapev/4/2mENy9sBrg56f0lU6RPojMUdhK8p6OCv2+fhLIxHc7hQJJ+bdvIaLX4DsW98H3L0fnYuk2kPy6KNhtvyT5CS71r8tkVakoUfURR1LrNddVbbaAd+CFhMfIsl8T5b7fpepX4TNxCCqYuurzjvAyXFz5RlmzKl3kBDBmnSEqEWcFxN8YBMhFmo7Ok+kfpmC/PoJgWzq5MsCOZ9/cCcEw9ADtfPrAEZhZha1MsljLQ8bs=</l7:StringValue>
+    <l7:StringValue bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd" algorithm="RSA">$L7C2$1,SgLYgenVvmaPxnXOpqRmeKIJvnWg0AkQGsB9iHvhNrU=$TOkDnW20bDJWGhHnX5aSiYQQaRcfqP91nFYim8rxP+YkwD91UVAR82xkobfukmpKgnkVzJaQI3DgIgtuInawWZrJ1QuEBBWFvtoX/14ALRSB9kdtOP0glY6MNe2ShJZYpXghWQLECy0P9lIRgw31IqB8bFdXBtTkx9t9RtE+R8O3s4dTdVaYhhmfQbRF5QWQJKrI4y8IQW2WjoEEee4yNKB0yjQB5Rd17tp6O8o+tEnEDUqV9ASHnummTU7y5fMgAXB0dgH89YjENgxZICzQbrkcdsGROzjkIzPBXJTEDl5V3SrLG2qLPzoa6URcmcCF5AE6aQxKqzF44SXRaPagXVJERegR/f0MvtcCa43PtrOeE588XZbUQeq2rzE+iJ4B2ZlU3QF+Zasyf99x0nhPu/S4DIfIf1K1pwbs0CY21rz2tgiJXXhHQIMRz4DD9231oJYLYse3TF6TIHc4tZVksyNjkY9Xr97YUIzVrxb3m/hG6rh9icl03s2qvHnIobusrifImf3FM70qUuZGabkpXdijTBZU9jsoBv9cY4c/pYCyw6rjFNOHUET25KA2+OSk2D6IHuoFaEZly1kGaqcj1qf2iyaWe1/JgF5fjLKdBxa1fSghm2RxnSxNtEk/je1skHoYp3CeO+KihSdyoObvuwiJdV07Ol2QBZgjpgxOMHgZroUp4A5Cf4e/IDzVt8hFMp8CYt+zPWTz9XE8osB5AKPOVPutCrwZOC7780R8qWASqkx8cwLUlTdQmg2/5Tq8gsXt+Ms8hH0QbNbbn2XFIa6nR7FLHLYmBUiNub1fQj6IY9hssHTrO9/Cq7aStSN3nrLEfLhOBiBZr/C7zEovlF7+AtXb2FaVKPwHqjWqfOoEHIdHZpHGuxLKFOOyORXdauCSdSZlkWQLRKYywjtzkCipim+nPQDxTdlp84USR96Cw46evnm5Nxsbs8wVDY3EeIdjKNMthuec8i61+A+3LXOylC96GbzpnGJK9i1A7Xu+lgs7rVzOIe23yTFkNWc/23hyjvulGnPUBAOTBvjpXuhEOomr8TdvVcsP7bcZMXYM7EIT3fESeauJe30UMiuO0YsgFJ0tcb2YEf6sRjST0EJceErldc5PRfNLxpmHlXF8sQk1Smk8K8r+nYCklGQnznF5cEI/ozlt4XpDwAh/NVH7px523BDJF1z4TKfxWL69Z0iOWoirZ1nrMXpkTkQsSlHDc9DSfk58QnBqIVYKAskf1hWQy70nYLODbtpgJcWgdwcXLL1zW+mWJlOlDYWPIxDFLKeaGsZAsYGy06tl2pX17v5Rt7a8ECj0SN+7s/trjgEpqPZpB1GeaZ+c1LvCvdgmEMPf2w3liOkJ51D3FuyVcorm5AYYabbAIDACegDAwBr9NMdign7fnAByqtJj7rz4owLg0umnGqkQwPOIDoJ0uGPmb1JoLs629qu6Nl0SN7Y1vkwG34yCQuMfGjC3jb5YQxOLcDd9QZ7TlJFFhHGh1cQOT75HKt/bkAWANWjMJoiC7XF7MGWa5SEo2WVRQEZ0yuQPgWXygKTHjr1pg6hVxI8+qe3tkkk81FbdfGjl51AJzessozThNz1IyqI3f6wMz2jM4+0exp5ElmxJmyJx6SKJHhrJVBjTiYLJNTZP7ad2efOB1MKytAfZ4ZUiVbS9Bu39DZZYvSc3r/dYaisZlgmJLtj4zDxtOnQWE0w=</l7:StringValue>
 </l7:Property>
 <l7:Property key="specialPurposes">
     <l7:StringValue>Default SSL Key</l7:StringValue>
@@ -771,7 +825,7 @@
                     <l7:Resource>
                         <l7:User providerId="0000000000000000fffffffffffffffe" id="00000000000000000000000000000003">
                             <l7:Login>admin</l7:Login>
-                            <l7:Password bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9" format="bundleKey:sha512crypt">$L7C2$1,wXSk2AlqxWku9hIpgNLqt+u1dYChfPu/aCBtcEMrkVs=$PEozrjeX4o/KO/unG4l8arMZL7SmVSFGUOPeMLu1YXseAGWiFz8ZosVsfFuTj9XnahYzMX6tZvVzRtwqAUx0X9qjX9amjc/0+C//SQUsqZIsA+pomb8s3y7JUrVp7kpuEhmhPMEorU3YNahJoB/h9QudZn/S+gE53LB+sPUKGqFhamLjRj5lf5xmaXgOyp9/S1i5D8EKS5dCw/7Ratd7dg==</l7:Password>
+                            <l7:Password bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd" format="bundleKey:sha512crypt">$L7C2$1,ggjgXz1FqdDTOCRrX3Oe7RqOvVPaqn07SUPH/kSRkPM=$hgb/7A55BjLCjKe87jVAZ5O6v6vX+RodkdXM3SlBslKlwwa5AlOYhKdKTXamzWCa+swaoecuJlLC5XC7WhqS66Z7KxA+VfxL2wjR2GB5Ymik3EKo9cdLqTrciSJE/9r9m1mQHy8hrLlJnAuZ+zucFYRmaFORusgr1q2MIoEmxD06smR4miOWuJXymf3353nJC+WY1jj14g6Zbg5rH2GbIQ==</l7:Password>
                             <l7:FirstName/>
                             <l7:LastName/>
                             <l7:Email/>
@@ -1216,6 +1270,22 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
+                    <l7:Name>Manage 11 Service (#e20e135c991fc80f9e180fb97e919caa)</l7:Name>
+                    <l7:Id>e20e135c991fc80f9e180fb97e919cb1</l7:Id>
+                    <l7:Type>RBAC_ROLE</l7:Type>
+                    
+                    <l7:Resource>
+                        <l7:Role id="e20e135c991fc80f9e180fb97e919cb1">
+                            <l7:name>Manage 11 Service (#e20e135c991fc80f9e180fb97e919caa)</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to read, update and delete the {1} service.</l7:description>
+                            <l7:userCreated>false</l7:userCreated>
+                            <l7:assignments/>
+                            <l7:entityType>SERVICE</l7:entityType>
+                            <l7:entityID>e20e135c991fc80f9e180fb97e919caa</l7:entityID>
+                        </l7:Role>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
                     <l7:Name>Publish External Identity Providers</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffff06</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
@@ -1340,7 +1410,7 @@
                     <l7:Resource>
                         <l7:StoredPassword id="52fc9ca1cb88be75903a209a7ed941ca">
                             <l7:Name>siteminder12_password</l7:Name>
-                            <l7:Password bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9">$L7C2$1,of3pCvFnEBoWn6bB+noFsbbzVoNPc8iDV++n7xNrGQw=$l79bYH8QfwsaZIp+VoX5hWJVizg9HGRfldTnoiI3pw6dkWMB2fM2oopz+/VzmwfVxEN3npQpGwBN9DM6L/S00Q==</l7:Password>
+                            <l7:Password bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd">$L7C2$1,po5DsbcR+59HVJ1JL63G6We9lgpRM9eYEfDUZFPZNBg=$pWHOFw/05+mvYuuKyRmGP3Ukn3iyPAogSaKDhhNTNgkdKgiBGoLIqi+avRm4CCiBSmXzEzEeUh2olHjo/JOdpA==</l7:Password>
                             <l7:Properties>
 <l7:Property key="description">
     <l7:StringValue/>
@@ -1377,7 +1447,7 @@
                             <l7:UpdateSsoToken>false</l7:UpdateSsoToken>
                             <l7:ClusterThreshold>50</l7:ClusterThreshold>
                             <l7:NonClusterFailover>false</l7:NonClusterFailover>
-                            <l7:Secret bundleKey="$L7C2$1bead,w2+MlhLuCaBmcKRGSntQayw7oDlsNW3Ue4vPQ2cQmA4=$fNrvxBsbgTDmjuAhEeHpLamOa7YtQA2cO2nVbK/Y9FFKWj3DOWG16c2pMaYWbSSLPSUPG1B0o0eePHMTKcrmDGhTl8G/2vkPX54SPMhjY7rTvPhJYLLq7h4HMv+nUXC9">$L7C2$1,U9e0eG20TUu9L+lPbfiJVx4HTKH0NOUO0r9UBrXmzxU=$irnf9+2bROVe3WseFEKFlQsHh8yZpEiWt0J7Cpd9RxFqBpIFmWy304saEfVDIo4gvFVSleHKJ5anQlurD05shGRzA2XPPYGT5amNZSlOlA+J1FnaRqFfAV3k0VTEaD3PvSJwC31gyWdQQQ9aSLdBUNeLeMKNJ7wEnvlpGP9B4OsU5A0QqYsvpA+OW2yVHOthv3tNzD12EdrxK4zc5b6x+wR9BZVssAM5FmFwMasNuNEFIQF/H9KDXNWOzbbApxaMtDg0fj0oqp/b1cYs2B5/XfUWtS4JMHFH/DK8hHHCW68YMyXoeMRUXYEa+y60PyCsRblP2kRY05GDZwlCI+Vwfw==</l7:Secret>
+                            <l7:Secret bundleKey="$L7C2$1bead,2480AouGdCcxoZ5xBDTGBNdVm5z+gFPvzOs+dIHQbe4=$XpcjhFhjo4ht2cFM4tNCUqNUFKSZAirXTIjT3wdi8jqDPYfb9lvplI1Q/GgKNZImNGjtS2xZ2LEYaEhDVdAi9IZJNTsILs9pPfm3hILyl6CZPO60G1arVEOc504ZlfKd">$L7C2$1,38wfNKQPiHZFYkTDiEuS0W9QHApqjVVIG8wVeObIn4c=$F6WL3YG/9Evg+SE+sIr9z3FJ6cRttpmPnTYoYzkHpSZysLuY6zkad3dsM+zgSc425N9yw742So1YdZDvf+sQzyQfCw2m43fP8Ot1R3vupPnTBtf2v7Xb2ffJALjU5kTQZ4VypZmtgnWcyqHGrCRHh2ZCBJfHyoRvlGDZbVtq/DW0p/PaNpqkQ/CIAACYDBQNaubgOq7FYuyyVrvyGLi6VMsQioj/J5L5tPIOT/BWlm0iMu1qb7pQg9xg0vTh2tYfXvrsI+eKo0EomH8MXlsf/qIQb6njTGe4OuIxQWuR3KhIQSyURtCGfHUsjUbJAi7zdSicGtvrOcEHbzfJbIPTgg==</l7:Secret>
                             <l7:Properties>
 <l7:Property key="server.0.0.accounting.port">
     <l7:StringValue>44441</l7:StringValue>
@@ -2549,6 +2619,7 @@
                     </l7:Properties>
                 </l7:Mapping>
                 <l7:Mapping action="NewOrExisting" srcId="e20e135c991fc80f9e180fb97e9190d1" type="SERVICE"/>
+                <l7:Mapping action="NewOrExisting" srcId="e20e135c991fc80f9e180fb97e919caa" type="SERVICE"/>
                 <l7:Mapping action="NewOrExisting" srcId="acb11723ef3ca24e7c3bf604e482a38c" type="TRUSTED_CERT"/>
                 <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffff5519f" type="CLUSTER_PROPERTY">
                     <l7:Properties>
@@ -2819,6 +2890,16 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="e20e135c991fc80f9e180fb97e919cb1" type="RBAC_ROLE">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                        <l7:Property key="MapBy">
+                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
                 <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffff06" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
@@ -2904,11 +2985,21 @@
 <l7:Id>e20e135c991fc80f9e180fb97e9190d1</l7:Id>
 <l7:Type>SERVICE</l7:Type>
                             </l7:Dependency>
+                            <l7:Dependency>
+<l7:Name>11</l7:Name>
+<l7:Id>e20e135c991fc80f9e180fb97e919caa</l7:Id>
+<l7:Type>SERVICE</l7:Type>
+                            </l7:Dependency>
                         </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>node</l7:Name>
                         <l7:Id>e20e135c991fc80f9e180fb97e9190d1</l7:Id>
+                        <l7:Type>SERVICE</l7:Type>
+                    </l7:Dependency>
+                    <l7:Dependency>
+                        <l7:Name>11</l7:Name>
+                        <l7:Id>e20e135c991fc80f9e180fb97e919caa</l7:Id>
                         <l7:Type>SERVICE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
@@ -3176,6 +3267,18 @@
                         <l7:Name>Manage Scheduled Task</l7:Name>
                         <l7:Id>0000000000000000fffffffffffff92a</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
+                    </l7:Dependency>
+                    <l7:Dependency>
+                        <l7:Name>Manage 11 Service (#e20e135c991fc80f9e180fb97e919caa)</l7:Name>
+                        <l7:Id>e20e135c991fc80f9e180fb97e919cb1</l7:Id>
+                        <l7:Type>RBAC_ROLE</l7:Type>
+                        <l7:Dependencies>
+                            <l7:Dependency>
+<l7:Name>11</l7:Name>
+<l7:Id>e20e135c991fc80f9e180fb97e919caa</l7:Id>
+<l7:Type>SERVICE</l7:Type>
+                            </l7:Dependency>
+                        </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>Publish External Identity Providers</l7:Name>

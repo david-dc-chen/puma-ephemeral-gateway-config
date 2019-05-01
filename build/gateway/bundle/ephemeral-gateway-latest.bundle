@@ -11,197 +11,49 @@
             </l7:Resource>
         </l7:Item>
         <l7:Item>
-            <l7:Name>influxdb</l7:Name>
-            <l7:Id>7772cd965cbe7e8fa57a2f695c610da5</l7:Id>
-            <l7:Type>POLICY</l7:Type>
+            <l7:Name>11</l7:Name>
+            <l7:Id>8f9d4b4b6d5dbf766b3e2192ee6526e7</l7:Id>
+            <l7:Type>SERVICE</l7:Type>
             <l7:Resource>
-                <l7:Policy guid="dfa2ae13-9bc2-45dc-afa1-da77284292f8" id="7772cd965cbe7e8fa57a2f695c610da5">
-                    <l7:PolicyDetail folderId="0000000000000000ffffffffffffec76" guid="dfa2ae13-9bc2-45dc-afa1-da77284292f8" id="7772cd965cbe7e8fa57a2f695c610da5">
-                        <l7:Name>influxdb</l7:Name>
-                        <l7:PolicyType>Service Operation</l7:PolicyType>
-                        <l7:Properties>
-                            <l7:Property key="tag">
-                                <l7:StringValue>com.l7tech.external.assertions.pbsmel.server.ServiceMetricsProcessor</l7:StringValue>
-                            </l7:Property>
-                            <l7:Property key="subtag">
-                                <l7:StringValue>process</l7:StringValue>
-                            </l7:Property>
-                        </l7:Properties>
-                    </l7:PolicyDetail>
+                <l7:Service id="8f9d4b4b6d5dbf766b3e2192ee6526e7">
+                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="8f9d4b4b6d5dbf766b3e2192ee6526e7">
+                        <l7:Name>11</l7:Name>
+                        <l7:Enabled>true</l7:Enabled>
+                        <l7:ServiceMappings>
+                            <l7:HttpMapping>
+                                <l7:UrlPattern>/11</l7:UrlPattern>
+                                <l7:Verbs>
+                                    <l7:Verb>DELETE</l7:Verb>
+                                    <l7:Verb>POST</l7:Verb>
+                                    <l7:Verb>GET</l7:Verb>
+                                    <l7:Verb>PUT</l7:Verb>
+                                </l7:Verbs>
+                            </l7:HttpMapping>
+                        </l7:ServiceMappings>
+                    </l7:ServiceDetail>
                     <l7:Resources>
                         <l7:ResourceSet tag="policy">
                             <l7:Resource type="policy">&lt;wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:L7p="http://www.layer7tech.com/ws/policy"&gt;&#13;
     &lt;wsp:All wsp:Usage="Required"&gt;&#13;
-        &lt;L7p:CommentAssertion&gt;&#13;
-            &lt;L7p:Comment stringValue="********************************************************************************************************************"/&gt;&#13;
-        &lt;/L7p:CommentAssertion&gt;&#13;
-        &lt;L7p:CommentAssertion&gt;&#13;
-            &lt;L7p:Comment stringValue="* Off Box Service Metrics"/&gt;&#13;
-        &lt;/L7p:CommentAssertion&gt;&#13;
-        &lt;L7p:CommentAssertion&gt;&#13;
-            &lt;L7p:Comment stringValue="* Route the metrics message to InfluxDB."/&gt;&#13;
-        &lt;/L7p:CommentAssertion&gt;&#13;
-        &lt;L7p:CommentAssertion&gt;&#13;
-            &lt;L7p:Comment stringValue="* "/&gt;&#13;
-        &lt;/L7p:CommentAssertion&gt;&#13;
-        &lt;L7p:CommentAssertion&gt;&#13;
-            &lt;L7p:Comment stringValue="* Input: A JSON format message containing service metrics for single request (as ${metrics})"/&gt;&#13;
-        &lt;/L7p:CommentAssertion&gt;&#13;
-        &lt;L7p:CommentAssertion&gt;&#13;
-            &lt;L7p:Comment stringValue="* "/&gt;&#13;
-        &lt;/L7p:CommentAssertion&gt;&#13;
-        &lt;L7p:CommentAssertion&gt;&#13;
-            &lt;L7p:Comment stringValue="********************************************************************************************************************"/&gt;&#13;
-        &lt;/L7p:CommentAssertion&gt;&#13;
-        &lt;L7p:AuditAssertion&gt;&#13;
-            &lt;L7p:Enabled booleanValue="false"/&gt;&#13;
-        &lt;/L7p:AuditAssertion&gt;&#13;
-        &lt;L7p:AuditDetailAssertion&gt;&#13;
-            &lt;L7p:Detail stringValue="metrics: ${metrics.mainpart}"/&gt;&#13;
-            &lt;L7p:Enabled booleanValue="false"/&gt;&#13;
-            &lt;L7p:Level stringValue="WARNING"/&gt;&#13;
-        &lt;/L7p:AuditDetailAssertion&gt;&#13;
-        &lt;wsp:All wsp:Usage="Required"&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="time"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="time"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="nodeId"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="nodeId"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="nodeName"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="nodeName"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="nodeIp"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="nodeIp"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="serviceId"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="serviceId"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="serviceName"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="serviceName"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="serviceUri"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="serviceUri"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="totalFrontendLatency"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="totalFrontendLatency"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="totalBackendLatency"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="totalBackendLatency"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="isPolicySuccessful"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="isPolicySuccessful"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="isPolicyViolation"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="isPolicyViolation"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-            &lt;L7p:EvaluateJsonPathExpression&gt;&#13;
-                &lt;L7p:Expression stringValue="isRoutingFailure"/&gt;&#13;
-                &lt;L7p:OtherTargetMessageVariable stringValue="metrics"/&gt;&#13;
-                &lt;L7p:Target target="OTHER"/&gt;&#13;
-                &lt;L7p:VariablePrefix stringValue="isRoutingFailure"/&gt;&#13;
-            &lt;/L7p:EvaluateJsonPathExpression&gt;&#13;
-        &lt;/wsp:All&gt;&#13;
-        &lt;L7p:SetVariable&gt;&#13;
-            &lt;L7p:Base64Expression stringValue="aWQ9JHtyZXF1ZXN0SWR9LG5vZGVJZD0ke25vZGVJZC5yZXN1bHR9LG5vZGVOYW1lPSR7bm9kZU5hbWUucmVzdWx0fSxub2RlSXA9JHtub2RlSXAucmVzdWx0fSxzZXJ2aWNlSWQ9JHtzZXJ2aWNlSWQucmVzdWx0fSxzZXJ2aWNlTmFtZT0ke3NlcnZpY2VOYW1lLnJlc3VsdH0sc2VydmljZVVyaT0ke3NlcnZpY2VVcmkucmVzdWx0fSxpc1BvbGljeVN1Y2Nlc3NmdWw9JHtpc1BvbGljeVN1Y2Nlc3NmdWwucmVzdWx0fSxpc1BvbGljeVZpb2xhdGlvbj0ke2lzUG9saWN5VmlvbGF0aW9uLnJlc3VsdH0saXNSb3V0aW5nRmFpbHVyZT0ke2lzUm91dGluZ0ZhaWx1cmUucmVzdWx0fQ=="/&gt;&#13;
-            &lt;L7p:VariableToSet stringValue="tags"/&gt;&#13;
-        &lt;/L7p:SetVariable&gt;&#13;
-        &lt;L7p:SetVariable&gt;&#13;
-            &lt;L7p:Base64Expression stringValue="dG90YWxGcm9udGVuZExhdGVuY3k9JHt0b3RhbEZyb250ZW5kTGF0ZW5jeS5yZXN1bHR9LHRvdGFsQmFja2VuZExhdGVuY3k9JHt0b3RhbEJhY2tlbmRMYXRlbmN5LnJlc3VsdH0="/&gt;&#13;
-            &lt;L7p:LineBreak lineBreak="LF"/&gt;&#13;
-            &lt;L7p:VariableToSet stringValue="mesaurement"/&gt;&#13;
-        &lt;/L7p:SetVariable&gt;&#13;
-        &lt;L7p:SetVariable&gt;&#13;
-            &lt;L7p:Base64Expression stringValue="cmVxdWVzdCwke3RhZ3N9ICR7bWVzYXVyZW1lbnR9ICR7dGltZS5yZXN1bHR9MDAwMDAw"/&gt;&#13;
-            &lt;L7p:ContentType stringValue="text/plain; charset=utf-8"/&gt;&#13;
-            &lt;L7p:DataType variableDataType="message"/&gt;&#13;
-            &lt;L7p:LineBreak lineBreak="LF"/&gt;&#13;
-            &lt;L7p:VariableToSet stringValue="requestDataPointMsg"/&gt;&#13;
-        &lt;/L7p:SetVariable&gt;&#13;
-        &lt;L7p:AuditDetailAssertion&gt;&#13;
-            &lt;L7p:Detail stringValue="requestDataPointMsg: ${requestDataPointMsg.mainpart}"/&gt;&#13;
-            &lt;L7p:Enabled booleanValue="false"/&gt;&#13;
-            &lt;L7p:Level stringValue="WARNING"/&gt;&#13;
-        &lt;/L7p:AuditDetailAssertion&gt;&#13;
-        &lt;L7p:HttpRoutingAssertion&gt;&#13;
-            &lt;L7p:HttpMethod httpMethod="POST"/&gt;&#13;
-            &lt;L7p:ProtectedServiceUrl stringValue="http://apim-service-metrics-runtime-influxdb:8086/write?db=serviceMetricsDb"/&gt;&#13;
-            &lt;L7p:ProxyPassword stringValueNull="null"/&gt;&#13;
-            &lt;L7p:ProxyUsername stringValueNull="null"/&gt;&#13;
-            &lt;L7p:RequestHeaderRules httpPassthroughRuleSet="included"&gt;&#13;
-                &lt;L7p:ForwardAll booleanValue="true"/&gt;&#13;
-                &lt;L7p:Rules httpPassthroughRules="included"&gt;&#13;
-                    &lt;L7p:item httpPassthroughRule="included"&gt;&#13;
-                        &lt;L7p:Name stringValue="Cookie"/&gt;&#13;
-                    &lt;/L7p:item&gt;&#13;
-                    &lt;L7p:item httpPassthroughRule="included"&gt;&#13;
-                        &lt;L7p:Name stringValue="SOAPAction"/&gt;&#13;
-                    &lt;/L7p:item&gt;&#13;
-                &lt;/L7p:Rules&gt;&#13;
-            &lt;/L7p:RequestHeaderRules&gt;&#13;
-            &lt;L7p:RequestMsgSrc stringValue="requestDataPointMsg"/&gt;&#13;
-            &lt;L7p:RequestParamRules httpPassthroughRuleSet="included"&gt;&#13;
-                &lt;L7p:ForwardAll booleanValue="true"/&gt;&#13;
-                &lt;L7p:Rules httpPassthroughRules="included"/&gt;&#13;
-            &lt;/L7p:RequestParamRules&gt;&#13;
-            &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet="included"&gt;&#13;
-                &lt;L7p:ForwardAll booleanValue="true"/&gt;&#13;
-                &lt;L7p:Rules httpPassthroughRules="included"&gt;&#13;
-                    &lt;L7p:item httpPassthroughRule="included"&gt;&#13;
-                        &lt;L7p:Name stringValue="Set-Cookie"/&gt;&#13;
-                    &lt;/L7p:item&gt;&#13;
-                &lt;/L7p:Rules&gt;&#13;
-            &lt;/L7p:ResponseHeaderRules&gt;&#13;
-            &lt;L7p:SamlAssertionVersion intValue="2"/&gt;&#13;
-        &lt;/L7p:HttpRoutingAssertion&gt;&#13;
+        &lt;L7p:HardcodedResponse&gt;&#13;
+            &lt;L7p:Base64ResponseBody stringValue="MTExMTExMTExMTExMTExMTE="/&gt;&#13;
+            &lt;L7p:ResponseContentType stringValue="text/plaintext; charset=UTF-8"/&gt;&#13;
+        &lt;/L7p:HardcodedResponse&gt;&#13;
     &lt;/wsp:All&gt;&#13;
 &lt;/wsp:Policy&gt;&#13;
 </l7:Resource>
                         </l7:ResourceSet>
                     </l7:Resources>
-                </l7:Policy>
+                </l7:Service>
             </l7:Resource>
         </l7:Item>
         <l7:Item>
             <l7:Name>node</l7:Name>
-            <l7:Id>7772cd965cbe7e8fa57a2f695c610da7</l7:Id>
+            <l7:Id>8f9d4b4b6d5dbf766b3e2192ee6526e8</l7:Id>
             <l7:Type>SERVICE</l7:Type>
             <l7:Resource>
-                <l7:Service id="7772cd965cbe7e8fa57a2f695c610da7">
-                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="7772cd965cbe7e8fa57a2f695c610da7">
+                <l7:Service id="8f9d4b4b6d5dbf766b3e2192ee6526e8">
+                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="8f9d4b4b6d5dbf766b3e2192ee6526e8">
                         <l7:Name>node</l7:Name>
                         <l7:Enabled>true</l7:Enabled>
                         <l7:ServiceMappings>
@@ -222,42 +74,6 @@
     &lt;wsp:All wsp:Usage="Required"&gt;&#13;
         &lt;L7p:HardcodedResponse&gt;&#13;
             &lt;L7p:Base64ResponseBody stringValue="c3Nnbm9kZS5ob3N0bmFtZTogJHtzc2dub2RlLmhvc3RuYW1lfQpzc2dub2RlLmlkOiAke3NzZ25vZGUuaWR9CnNzZ25vZGUuaXA6ICR7c3Nnbm9kZS5pcH0Kc3Nnbm9kZS5uYW1lOiAke3NzZ25vZGUubmFtZX0="/&gt;&#13;
-        &lt;/L7p:HardcodedResponse&gt;&#13;
-    &lt;/wsp:All&gt;&#13;
-&lt;/wsp:Policy&gt;&#13;
-</l7:Resource>
-                        </l7:ResourceSet>
-                    </l7:Resources>
-                </l7:Service>
-            </l7:Resource>
-        </l7:Item>
-        <l7:Item>
-            <l7:Name>hi</l7:Name>
-            <l7:Id>7772cd965cbe7e8fa57a2f695c610da8</l7:Id>
-            <l7:Type>SERVICE</l7:Type>
-            <l7:Resource>
-                <l7:Service id="7772cd965cbe7e8fa57a2f695c610da8">
-                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="7772cd965cbe7e8fa57a2f695c610da8">
-                        <l7:Name>hi</l7:Name>
-                        <l7:Enabled>true</l7:Enabled>
-                        <l7:ServiceMappings>
-                            <l7:HttpMapping>
-                                <l7:UrlPattern>/hi</l7:UrlPattern>
-                                <l7:Verbs>
-                                    <l7:Verb>DELETE</l7:Verb>
-                                    <l7:Verb>POST</l7:Verb>
-                                    <l7:Verb>GET</l7:Verb>
-                                    <l7:Verb>PUT</l7:Verb>
-                                </l7:Verbs>
-                            </l7:HttpMapping>
-                        </l7:ServiceMappings>
-                    </l7:ServiceDetail>
-                    <l7:Resources>
-                        <l7:ResourceSet tag="policy">
-                            <l7:Resource type="policy">&lt;wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:L7p="http://www.layer7tech.com/ws/policy"&gt;&#13;
-    &lt;wsp:All wsp:Usage="Required"&gt;&#13;
-        &lt;L7p:HardcodedResponse&gt;&#13;
-            &lt;L7p:Base64ResponseBody stringValue="aGkgdGhlcmU="/&gt;&#13;
             &lt;L7p:ResponseContentType stringValue="text/plaintext; charset=UTF-8"/&gt;&#13;
         &lt;/L7p:HardcodedResponse&gt;&#13;
     &lt;/wsp:All&gt;&#13;
@@ -268,29 +84,10 @@
                 </l7:Service>
             </l7:Resource>
         </l7:Item>
-        <l7:Item>
-            <l7:Name>metrics</l7:Name>
-            <l7:Id>7772cd965cbe7e8fa57a2f695c610da9</l7:Id>
-            <l7:Type>POLICY_BACKED_SERVICE</l7:Type>
-            <l7:Resource>
-                <l7:PolicyBackedService id="7772cd965cbe7e8fa57a2f695c610da9">
-                    <l7:Name>metrics</l7:Name>
-                    <l7:InterfaceName>com.l7tech.external.assertions.pbsmel.server.ServiceMetricsProcessor</l7:InterfaceName>
-                    <l7:PolicyBackedServiceOperations>
-                        <l7:PolicyBackedServiceOperation>
-                            <l7:PolicyId>7772cd965cbe7e8fa57a2f695c610da5</l7:PolicyId>
-                            <l7:OperationName>process</l7:OperationName>
-                        </l7:PolicyBackedServiceOperation>
-                    </l7:PolicyBackedServiceOperations>
-                </l7:PolicyBackedService>
-            </l7:Resource>
-        </l7:Item>
     </l7:References>
     <l7:Mappings>
         <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" type="FOLDER"/>
-        <l7:Mapping action="NewOrUpdate" srcId="7772cd965cbe7e8fa57a2f695c610da5" type="POLICY"/>
-        <l7:Mapping action="NewOrUpdate" srcId="7772cd965cbe7e8fa57a2f695c610da7" type="SERVICE"/>
-        <l7:Mapping action="NewOrUpdate" srcId="7772cd965cbe7e8fa57a2f695c610da8" type="SERVICE"/>
-        <l7:Mapping action="NewOrUpdate" srcId="7772cd965cbe7e8fa57a2f695c610da9" type="POLICY_BACKED_SERVICE"/>
+        <l7:Mapping action="NewOrUpdate" srcId="8f9d4b4b6d5dbf766b3e2192ee6526e7" type="SERVICE"/>
+        <l7:Mapping action="NewOrUpdate" srcId="8f9d4b4b6d5dbf766b3e2192ee6526e8" type="SERVICE"/>
     </l7:Mappings>
 </l7:Bundle>
