@@ -1,15 +1,15 @@
-11:
-  url: "/11"
-  policy: "11.xml"
+node:
+  url: "/node"
+  policy: "node.xml"
   httpMethods:
   - "DELETE"
   - "POST"
   - "GET"
   - "PUT"
   properties: {}
-node:
-  url: "/node"
-  policy: "node.xml"
+222:
+  url: "/222"
+  policy: "222.xml"
   httpMethods:
   - "DELETE"
   - "POST"

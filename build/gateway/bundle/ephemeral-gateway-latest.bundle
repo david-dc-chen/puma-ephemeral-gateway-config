@@ -11,49 +11,12 @@
             </l7:Resource>
         </l7:Item>
         <l7:Item>
-            <l7:Name>11</l7:Name>
-            <l7:Id>8f9d4b4b6d5dbf766b3e2192ee6526e7</l7:Id>
-            <l7:Type>SERVICE</l7:Type>
-            <l7:Resource>
-                <l7:Service id="8f9d4b4b6d5dbf766b3e2192ee6526e7">
-                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="8f9d4b4b6d5dbf766b3e2192ee6526e7">
-                        <l7:Name>11</l7:Name>
-                        <l7:Enabled>true</l7:Enabled>
-                        <l7:ServiceMappings>
-                            <l7:HttpMapping>
-                                <l7:UrlPattern>/11</l7:UrlPattern>
-                                <l7:Verbs>
-                                    <l7:Verb>DELETE</l7:Verb>
-                                    <l7:Verb>POST</l7:Verb>
-                                    <l7:Verb>GET</l7:Verb>
-                                    <l7:Verb>PUT</l7:Verb>
-                                </l7:Verbs>
-                            </l7:HttpMapping>
-                        </l7:ServiceMappings>
-                    </l7:ServiceDetail>
-                    <l7:Resources>
-                        <l7:ResourceSet tag="policy">
-                            <l7:Resource type="policy">&lt;wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:L7p="http://www.layer7tech.com/ws/policy"&gt;&#13;
-    &lt;wsp:All wsp:Usage="Required"&gt;&#13;
-        &lt;L7p:HardcodedResponse&gt;&#13;
-            &lt;L7p:Base64ResponseBody stringValue="MTExMTExMTExMTExMTExMTE="/&gt;&#13;
-            &lt;L7p:ResponseContentType stringValue="text/plaintext; charset=UTF-8"/&gt;&#13;
-        &lt;/L7p:HardcodedResponse&gt;&#13;
-    &lt;/wsp:All&gt;&#13;
-&lt;/wsp:Policy&gt;&#13;
-</l7:Resource>
-                        </l7:ResourceSet>
-                    </l7:Resources>
-                </l7:Service>
-            </l7:Resource>
-        </l7:Item>
-        <l7:Item>
             <l7:Name>node</l7:Name>
-            <l7:Id>8f9d4b4b6d5dbf766b3e2192ee6526e8</l7:Id>
+            <l7:Id>dbec84c8d53b8696c2007452008702d4</l7:Id>
             <l7:Type>SERVICE</l7:Type>
             <l7:Resource>
-                <l7:Service id="8f9d4b4b6d5dbf766b3e2192ee6526e8">
-                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="8f9d4b4b6d5dbf766b3e2192ee6526e8">
+                <l7:Service id="dbec84c8d53b8696c2007452008702d4">
+                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="dbec84c8d53b8696c2007452008702d4">
                         <l7:Name>node</l7:Name>
                         <l7:Enabled>true</l7:Enabled>
                         <l7:ServiceMappings>
@@ -84,10 +47,47 @@
                 </l7:Service>
             </l7:Resource>
         </l7:Item>
+        <l7:Item>
+            <l7:Name>222</l7:Name>
+            <l7:Id>dbec84c8d53b8696c2007452008702d5</l7:Id>
+            <l7:Type>SERVICE</l7:Type>
+            <l7:Resource>
+                <l7:Service id="dbec84c8d53b8696c2007452008702d5">
+                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="dbec84c8d53b8696c2007452008702d5">
+                        <l7:Name>222</l7:Name>
+                        <l7:Enabled>true</l7:Enabled>
+                        <l7:ServiceMappings>
+                            <l7:HttpMapping>
+                                <l7:UrlPattern>/222</l7:UrlPattern>
+                                <l7:Verbs>
+                                    <l7:Verb>DELETE</l7:Verb>
+                                    <l7:Verb>POST</l7:Verb>
+                                    <l7:Verb>GET</l7:Verb>
+                                    <l7:Verb>PUT</l7:Verb>
+                                </l7:Verbs>
+                            </l7:HttpMapping>
+                        </l7:ServiceMappings>
+                    </l7:ServiceDetail>
+                    <l7:Resources>
+                        <l7:ResourceSet tag="policy">
+                            <l7:Resource type="policy">&lt;wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:L7p="http://www.layer7tech.com/ws/policy"&gt;&#13;
+    &lt;wsp:All wsp:Usage="Required"&gt;&#13;
+        &lt;L7p:HardcodedResponse&gt;&#13;
+            &lt;L7p:Base64ResponseBody stringValue="MjIyMjIyMjIyMjIyMjIyMjI="/&gt;&#13;
+            &lt;L7p:ResponseContentType stringValue="text/plaintext; charset=UTF-8"/&gt;&#13;
+        &lt;/L7p:HardcodedResponse&gt;&#13;
+    &lt;/wsp:All&gt;&#13;
+&lt;/wsp:Policy&gt;&#13;
+</l7:Resource>
+                        </l7:ResourceSet>
+                    </l7:Resources>
+                </l7:Service>
+            </l7:Resource>
+        </l7:Item>
     </l7:References>
     <l7:Mappings>
         <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" type="FOLDER"/>
-        <l7:Mapping action="NewOrUpdate" srcId="8f9d4b4b6d5dbf766b3e2192ee6526e7" type="SERVICE"/>
-        <l7:Mapping action="NewOrUpdate" srcId="8f9d4b4b6d5dbf766b3e2192ee6526e8" type="SERVICE"/>
+        <l7:Mapping action="NewOrUpdate" srcId="dbec84c8d53b8696c2007452008702d4" type="SERVICE"/>
+        <l7:Mapping action="NewOrUpdate" srcId="dbec84c8d53b8696c2007452008702d5" type="SERVICE"/>
     </l7:Mappings>
 </l7:Bundle>
