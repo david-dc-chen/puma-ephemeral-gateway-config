@@ -7,6 +7,14 @@ vault {
 }
 
 template {
+contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }}{{ .Data }}{{ end }}"
+destination="/opt/consul-template/company.com.data"
+
+#Optional Command after certificate renewal
+#command = "service ssg restart"
+}
+
+template {
 contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }}{{ .Data.private_key }}{{ end }}"
 destination="/opt/consul-template/company.com.key"
 
