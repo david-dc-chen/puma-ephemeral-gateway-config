@@ -1,4 +1,4 @@
-FROM docker.stable1.apimgcp.com/repository/docker-hosted/gateway:wlui-test
+FROM docker.dev1.apimgcp.com/repository/docker-hosted/gateway:95
 ## Deploy consul-template to gateway
 USER root
 COPY consul-template/consul-template /opt/consul-template/
