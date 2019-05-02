@@ -1,6 +1,6 @@
 vault {
-  address = "https://apim-vault:8200"
-  token="df190095-e8b9-8ccd-69ce-cde8e29f19cb"  #also can be under VAULT_TOKEN env variable
+#  address = "https://apim-vault:8200"
+#  token="df190095-e8b9-8ccd-69ce-cde8e29f19cb"  #also can be under VAULT_TOKEN env variable
   grace = "1s"
   unwrap_token = false
   renew_token = false
