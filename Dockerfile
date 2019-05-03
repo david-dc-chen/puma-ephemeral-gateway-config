@@ -4,7 +4,8 @@ USER root
 COPY consul-template/consul-template /opt/consul-template/
 COPY consul-template/config.hcl /opt/consul-template/config.hcl
 RUN chmod +x /opt/consul-template/consul-template
-
+COPY consul-template/setup.sh /opt/consul-template/setup.sh
+RUN chmod +x /opt/consul-template/setup.sh
 #RUN export VAULT_ADDR=https://apim-vault:8200
 #RUN export VAULT_TOKEN="df190095-e8b9-8ccd-69ce-cde8e29f19cb"
 #RUN export VAULT_SKIP_VERIFY="true"
