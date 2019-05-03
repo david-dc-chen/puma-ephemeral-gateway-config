@@ -7,21 +7,22 @@ vault {
 }
 
 template {
-contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }}{{ .Data.private_key }}{{ end }}"
-destination="/opt/consul-template/company.com.key"
+ contents="{{ with secret \"pki/issue/gateway\" \"common_name=gateway.company.com\" }}{{ .Data.private_key }}{{ end }}"
+ destination="/opt/consul-template/company.com.key"
 }
 
 template {
-contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }}{{ .Data.certificate }}{{ end }}"
-destination="/opt/consul-template/company.com.crt"
-
-#Optional Command after certificate renewal
-#command = "service ssg restart"
+ contents="{{ with secret \"pki/issue/gateway\" \"common_name=gateway.company.com\" }}{{ .Data.certificate }}{{ end }}"
+ destination="/opt/consul-template/company.com.cert"
+}
+template {
+ contents="{{ with secret \"pki/issue/gateway\" \"common_name=gateway.company.com\" }}{{ .Data.issuing_ca }}{{ end }}"
+ destination="/opt/consul-template/company.com.cert.ca"
 }
 
 template {
-contents="{{ with secret \"secret/gateway/pass\" }}{{ .Data.value }}{{ end }}"
-destination="/opt/consul-template/pass.txt"
+ contents="{{ with secret \"secret/gateway/pass\" }}{{ .Data.value }}{{ end }}"
+ destination="/opt/consul-template/pass.txt"
 }
 
 template {
