@@ -1,5 +1,5 @@
 export SSG_SSL_KEY_PEM=$(cat /opt/consul-template/company.com.key)
-export SSG_SSL_KEY_PEM_CERTS=abcd
+export SSG_SSL_KEY_PEM_CERTS=$(cat /opt/consul-template/company.com.crt)
 
 rm -f /opt/consul-template/company.com.key
 rm -f /opt/consul-template/company.com.crt
