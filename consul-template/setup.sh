@@ -1,4 +1,4 @@
-/opt/consul-template/consul-template -config /opt/consul-template/config.hcl
+/opt/consul-template/consul-template -config /opt/consul-template/config.hcl -once
 
 cat /opt/consul-template/company.com.cert > /opt/consul-template/trusted.cert
 cat /opt/consul-template/company.com.cert.ca >> /opt/consul-template/trusted.cert
