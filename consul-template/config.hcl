@@ -11,7 +11,7 @@ contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }
 destination="/opt/consul-template/company.com.key"
 
 #Optional Command after certificate renewal
-command = "export SSG_SSL_KEY_PEM=$(cat /opt/consul-template/company.com.key)"
+#command = "export SSG_SSL_KEY_PEM=$(cat /opt/consul-template/company.com.key)"
 }
 
 template {
@@ -19,7 +19,7 @@ contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }
 destination="/opt/consul-template/company.com.crt"
 
 #Optional Command after certificate renewal
-command = "export SSG_SSL_KEY_PEM_CERTS=$(cat /opt/consul-template/company.com.crt)"
+#command = "export SSG_SSL_KEY_PEM_CERTS=$(cat /opt/consul-template/company.com.crt)"
 }
 
 template {
