@@ -4,7 +4,7 @@ USER root
 COPY consul-template/consul-template /opt/consul-template/
 COPY consul-template/config.hcl /opt/consul-template/config.hcl
 RUN chmod +x /opt/consul-template/consul-template
-RUN /opt/consul-template/consul-template -config /opt/consul-template/config.hcl
+RUN /opt/consul-template/consul-template -once -config /opt/consul-template/config.hcl
 
 RUN export SSG_SSL_KEY_PEM=$(cat /opt/consul-template/company.com.key)
 RUN export SSG_SSL_KEY_PEM_CERTS=dfssfsdfdsfsfsd
