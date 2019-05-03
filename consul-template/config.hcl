@@ -7,19 +7,11 @@ vault {
 }
 
 template {
-contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }}{{ .Data }}{{ end }}"
-destination="/opt/consul-template/company.com.data"
-
-#Optional Command after certificate renewal
-#command = "service ssg restart"
-}
-
-template {
 contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }}{{ .Data.private_key }}{{ end }}"
 destination="/opt/consul-template/company.com.key"
 
 #Optional Command after certificate renewal
-#command = "service ssg restart"
+command = "export SSG_SSL_KEY_PEM=$(cat /opt/consul-template/company.com.key)"
 }
 
 template {
@@ -27,7 +19,7 @@ contents="{{ with secret \"pki/issue/gateway\" \"common_name=www.company.com\" }
 destination="/opt/consul-template/company.com.crt"
 
 #Optional Command after certificate renewal
-#command = "service ssg restart"
+command = "export SSG_SSL_KEY_PEM_CERTS=$(cat /opt/consul-template/company.com.crt)"
 }
 
 template {
