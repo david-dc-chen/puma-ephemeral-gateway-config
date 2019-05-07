@@ -9,8 +9,8 @@ pipeline {
         BASE_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
         NEW_IMAGE_NAME = 'gateway'
         NEW_IMAGE_TAG = "v${env.BUILD_ID}"
-        INIT_IMAGE_NAME = 'openssl'
-        INIT_IMAGE_TAG = "v${env.BUILD_ID}"
+        INIT_IMAGE_NAME = 'openssl+consul'
+        INIT_IMAGE_TAG = "init${env.BUILD_ID}"
         NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.dev1.apimgcp.com'
         NEW_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
     }
@@ -32,7 +32,7 @@ pipeline {
             steps {
                 sh """docker login ${env.NEW_IMAGE_REGISTRY_HOSTNAME} -u ${params.NEW_IMAGE_REGISTRY_USER} --password ${params.NEW_IMAGE_REGISTRY_PASSWORD}
                         docker pull frapsoft/openssl
-                        ./gradlew -DimageName=${env.INIT_IMAGE_NAME} -DimageTag=${env.INIT_IMAGE_TAG} buildDockerImage"""
+                        ./gradlew -DimageName=${env.INIT_IMAGE_NAME} -DimageTag=${env.INIT_IMAGE_TAG} buildDockerImage
                         docker push ${env.NEW_IMAGE_REGISTRY_HOSTNAME}/repository/${env.NEW_IMAGE_REGISTRY_REPOSITORY}/${env.INIT_IMAGE_NAME}:${env.INIT_IMAGE_TAG}"""
             }
         }
