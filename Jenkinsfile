@@ -33,6 +33,7 @@ pipeline {
                 sh """docker login ${env.NEW_IMAGE_REGISTRY_HOSTNAME} -u ${params.NEW_IMAGE_REGISTRY_USER} --password ${params.NEW_IMAGE_REGISTRY_PASSWORD}
                         docker pull frapsoft/openssl
                         ./gradlew -DimageName=${env.INIT_IMAGE_NAME} -DimageTag=${env.INIT_IMAGE_TAG} buildDockerImage
+                        docker tag ${env.INIT_IMAGE_NAME}:${env.INIT_IMAGE_TAG} ${env.NEW_IMAGE_REGISTRY_HOSTNAME}/repository/${env.NEW_IMAGE_REGISTRY_REPOSITORY}/${env.INIT_IMAGE_NAME}:${env.INIT_IMAGE_TAG}
                         docker push ${env.NEW_IMAGE_REGISTRY_HOSTNAME}/repository/${env.NEW_IMAGE_REGISTRY_REPOSITORY}/${env.INIT_IMAGE_NAME}:${env.INIT_IMAGE_TAG}"""
             }
         }
