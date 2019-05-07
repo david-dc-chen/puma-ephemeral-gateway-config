@@ -1,16 +1,23 @@
 #!/bin/bash
-/opt/consul-template/consul-template -config /opt/consul-template/config.hcl -once
 
-cat /opt/consul-template/company.com.cert > /opt/consul-template/trusted.cert
-echo "" /opt/consul-template/trusted.cert
-cat /opt/consul-template/company.com.cert.ca >> /opt/consul-template/trusted.cert
+pushd /opt/consul-template
 
-export SSG_SSL_KEY_PEM=$(cat /opt/consul-template/company.com.key)
-export SSG_SSL_KEY_PEM_CERTS=$(cat /opt/consul-template/trusted.cert)
+./consul-template -config config.hcl -once
 
-# rm -f /opt/consul-template/company.com.key
-# rm -f /opt/consul-template/company.com.cert
-# rm -f /opt/consul-template/company.com.cert.ca
-# rm -f /opt/consul-template/trusted.cert
-# rm -f /opt/consul-template/pass.txt
-# rm -f /opt/consul-template/license.xml
+cat company.com.cert > trusted.cert
+echo "" trusted.cert
+cat company.com.cert.ca >> trusted.cert
+
+openssl pkcs12 -export -out ssl.p12 -in trusted.cert -inkey company.com.key -password pass:password
+
+#export SSG_SSL_KEY_PEM=$(cat company.com.key)
+#export SSG_SSL_KEY_PEM_CERTS=$(cat trusted.cert)
+
+# rm -f company.com.key
+# rm -f company.com.cert
+# rm -f company.com.cert.ca
+# rm -f trusted.cert
+# rm -f pass.txt
+# rm -f license.xml
+
+popd
