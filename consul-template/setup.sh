@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pushd /opt/consul-template
+cd /opt/consul-template
 
 ./consul-template -config config.hcl -once
 
@@ -19,5 +19,3 @@ openssl pkcs12 -export -out ssl.p12 -in trusted.cert -inkey company.com.key -pas
 # rm -f trusted.cert
 # rm -f pass.txt
 # rm -f license.xml
-
-popd
