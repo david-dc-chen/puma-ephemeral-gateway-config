@@ -10,12 +10,10 @@ cat company.com.cert.ca >> trusted.cert
 
 openssl pkcs12 -export -out /opt/vault/ssl.p12 -name ssl -in trusted.cert -inkey company.com.key -password pass:password
 
-#export SSG_SSL_KEY_PEM=$(cat company.com.key)
-#export SSG_SSL_KEY_PEM_CERTS=$(cat trusted.cert)
+mv -f license.xml /opt/SecureSpan/Gateway/node/default/etc/bootstrap/license/
 
-# rm -f company.com.key
-# rm -f company.com.cert
-# rm -f company.com.cert.ca
-# rm -f trusted.cert
-# rm -f pass.txt
-# rm -f license.xml
+rm -f company.com.key
+rm -f company.com.cert
+rm -f company.com.cert.ca
+rm -f trusted.cert
+rm -f pass.txt

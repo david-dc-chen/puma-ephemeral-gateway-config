@@ -1,5 +1,5 @@
+## Put consul-template inside container
 FROM hexedpackets/curl
-## Deploy consul-template to gateway
 USER root
 COPY consul-template/consul-template /opt/consul-template/
 COPY consul-template/config.hcl /opt/consul-template/config.hcl
