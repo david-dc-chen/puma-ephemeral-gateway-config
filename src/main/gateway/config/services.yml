@@ -16,3 +16,21 @@ node:
   - "GET"
   - "PUT"
   properties: {}
+quota:
+  url: "/quota"
+  policy: "quota.xml"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
+echo:
+  url: "/echo"
+  policy: "echo.xml"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}

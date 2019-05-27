@@ -1,0 +1,19 @@
+<wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:L7p="http://www.layer7tech.com/ws/policy">
+    <wsp:All wsp:Usage="Required">
+        <L7p:ThroughputQuota>
+            <L7p:CounterName stringValue="PRESET(cd9c094d89e2383f)${request.authenticateduser.id}-${request.authenticateduser.providerid}"/>
+            <L7p:Global booleanValue="true"/>
+            <L7p:Quota stringValue="6"/>
+            <L7p:ReadSynchronous booleanValue="false"/>
+            <L7p:Synchronous booleanValue="false"/>
+            <L7p:TimeUnit stringValue="minute"/>
+        </L7p:ThroughputQuota>
+        <L7p:HardcodedResponse>
+            <L7p:ResponseBody><![CDATA[ssgnode.hostname: ${ssgnode.hostname}
+ssgnode.ip: ${ssgnode.ip}
+ssgnode.name: ${ssgnode.name}
+]]></L7p:ResponseBody>
+            <L7p:ResponseContentType stringValue="text/plaintext; charset=UTF-8"/>
+        </L7p:HardcodedResponse>
+    </wsp:All>
+</wsp:Policy>
