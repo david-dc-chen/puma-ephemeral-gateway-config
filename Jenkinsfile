@@ -11,7 +11,7 @@ pipeline {
         NEW_IMAGE_TAG = "v${env.BUILD_ID}"
         INIT_IMAGE_NAME = 'openssl_consul'
         INIT_IMAGE_TAG = "init${env.BUILD_ID}"
-        NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.dev1.apimgcp.com'
+        NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
         NEW_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
     }
 
