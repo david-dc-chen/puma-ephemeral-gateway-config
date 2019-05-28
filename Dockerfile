@@ -8,7 +8,7 @@
 #RUN chmod +x /opt/consul-template/setup.sh
 
 
-FROM docker.stable1.apimgcp.com/repository/docker-hosted/gateway:95
+FROM docker.dev1.apimgcp.com/repository/docker-hosted/gateway:95
 ## Copying the deployment package
 COPY build/gateway/ephemeral-gateway-latest.gw7 /opt/docker/rc.d/deployment.gw7
 
