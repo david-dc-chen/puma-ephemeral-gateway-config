@@ -3,6 +3,7 @@ FROM hexedpackets/curl
 USER root
 COPY consul-template/consul-template /opt/consul-template/
 COPY consul-template/config.hcl /opt/consul-template/config.hcl
+COPY consul-template/ssl.p12 /opt/consul-template/ssl.p12
 RUN chmod +x /opt/consul-template/consul-template
 COPY consul-template/setup.sh /opt/consul-template/setup.sh
 RUN chmod +x /opt/consul-template/setup.sh
