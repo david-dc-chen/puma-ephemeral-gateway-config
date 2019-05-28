@@ -4,14 +4,14 @@ pipeline {
     environment {
         GIT_REPOSITORY = 'https://github.com/david-dc-chen/puma-ephemeral-gateway-config'
         BASE_IMAGE_NAME = 'gateway'
-        BASE_IMAGE_TAG = '94'
-        BASE_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
+        BASE_IMAGE_TAG = '95'
+        BASE_IMAGE_REGISTRY_HOSTNAME = 'docker.dev1.apimgcp.com'
         BASE_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
         NEW_IMAGE_NAME = 'gateway'
         NEW_IMAGE_TAG = "v${env.BUILD_ID}"
         INIT_IMAGE_NAME = 'openssl_consul'
         INIT_IMAGE_TAG = "init${env.BUILD_ID}"
-        NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
+        NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.dev1.apimgcp.com'
         NEW_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
     }
 
@@ -28,7 +28,7 @@ pipeline {
 
             }
         }
-        /*
+
         stage('Build Init Image') {
             steps {
                 sh """docker login ${env.NEW_IMAGE_REGISTRY_HOSTNAME} -u ${params.NEW_IMAGE_REGISTRY_USER} --password ${params.NEW_IMAGE_REGISTRY_PASSWORD}
@@ -38,7 +38,7 @@ pipeline {
                       docker push ${env.NEW_IMAGE_REGISTRY_HOSTNAME}/repository/${env.NEW_IMAGE_REGISTRY_REPOSITORY}/${env.INIT_IMAGE_NAME}:${env.INIT_IMAGE_TAG}"""
             }
         }
-        */
+        /*
         stage('Build Image with Docker') {
             steps {
                 sh """docker login ${env.BASE_IMAGE_REGISTRY_HOSTNAME} -u ${params.BASE_IMAGE_REGISTRY_USER} --password ${params.BASE_IMAGE_REGISTRY_PASSWORD}
@@ -54,6 +54,6 @@ pipeline {
 			         docker push ${env.NEW_IMAGE_REGISTRY_HOSTNAME}/repository/${env.NEW_IMAGE_REGISTRY_REPOSITORY}/${env.NEW_IMAGE_NAME}:${env.NEW_IMAGE_TAG}"""
             }
         }
-
+        */
     }
 }
