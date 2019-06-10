@@ -5,8 +5,8 @@
  */
 
 plugins {
-    id "com.ca.apim.gateway.gateway-developer-plugin" version "0.6.19"
-    id "com.ca.apim.gateway.gateway-export-plugin" version "0.6.21"
+    id "com.ca.apim.gateway.gateway-developer-plugin" version "0.8.+"
+    id "com.ca.apim.gateway.gateway-export-plugin" version "0.8.+"
     id "com.bmuschko.docker-remote-api" version "4.0.4"
 }
 
